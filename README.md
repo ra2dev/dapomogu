@@ -1,2 +1,2 @@
-# uahelps
-Moving Guide
+# uahelps!
+Guide how to help or receive help
