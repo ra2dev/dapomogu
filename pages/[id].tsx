@@ -1,7 +1,6 @@
 import { getDatabase, getPage } from "../lib/notion";
 import Link from "next/link";
 import { NotionRenderer } from "react-notion-x";
-import styles from "./post.module.css";
 import { NotionAPI } from "notion-client";
 
 const notion = new NotionAPI();
@@ -9,10 +8,10 @@ const notion = new NotionAPI();
 export default function Post({ recordMap }) {
   return (
     <div>
-      <article className={styles.container}>
+      <article>
         <section>
           <Link href="/">
-            <a className={styles.back}>← Go home</a>
+            <a>← Go home</a>
           </Link>
           <br />
           <NotionRenderer recordMap={recordMap} />
@@ -23,7 +22,7 @@ export default function Post({ recordMap }) {
 }
 
 export const getStaticPaths = async () => {
-  const database = await getDatabase("databaseId");
+  const database = await getDatabase(process.env.NOTION_DATABASE_ID);
 
   return {
     paths: database.map((page) => ({ params: { id: page.id } })),
