@@ -40,7 +40,6 @@ export const getStaticProps = async (context) => {
     page.url.replace("https://www.notion.so/")
   );
 
-  console.log(recordMap);
   return {
     props: {
       recordMap,

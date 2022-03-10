@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import HeroImage from "../images/hero-image.png";
+import { SelectButton } from "./SelectButton";
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -59,44 +60,18 @@ function HeroHome() {
               >
                 Чтобы получить ответ на свой вопрос, пройдите простой опросник:
               </p>
-
-              <div className="transform hover:scale-[1.01] transition-all rounded-xl w-full bg-gradient-to-r p-1 from-[#FDE68A] via-[#FCA5A5] to-[#FECACA] mb-2">
-                <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 bg-white shadow-md border-gray-200 hover:shadow-lg`}
-                  href="#0"
-                >
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 mr-3">
-                    🆘
-                  </div>
-                  <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">
-                      Мне нужна помощь
-                    </div>
-                    <div className="text-gray-600">
-                      Найти как добраться в страну следования, какие документы
-                      необходимо и дописать текст тут
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="transform hover:scale-[1.01] transition-all rounded-xl w-full bg-gradient-to-r p-1 from-[#D8B4FE] to-[#818CF8]">
-                <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 bg-white shadow-md border-gray-200 hover:shadow-lg`}
-                  href="#0"
-                >
-                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 mr-3">
-                    🤝
-                  </div>
-                  <div className="text-center w-full">
-                    <div className="font-bold leading-snug tracking-tight mb-1">
-                      Я могу помочь
-                    </div>
-                    <div className="text-gray-600">
-                      Я хочу помочь Армии и Народу пострадавших от войны.
-                    </div>
-                  </div>
-                </a>
-              </div>
+              <SelectButton
+                icon="🆘"
+                title="Мне нужна помощь"
+                description="Найти как добраться в страну следования."
+                className="bg-gradient-to-r from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
+              />
+              <SelectButton
+                icon="🤝"
+                title="Я могу помочь"
+                description="Я хочу помочь людям пострадавших от войны."
+                className="bg-gradient-to-r p-1 from-[#D8B4FE] to-[#818CF8]"
+              />
             </div>
           </div>
 

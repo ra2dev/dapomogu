@@ -10,7 +10,6 @@ export default function Home() {
         <title>Notion Next.js blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Header />
       <main className="flex-grow">
         <HeroHome />
