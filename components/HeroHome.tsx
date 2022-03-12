@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import HeroImage from "../images/hero-image.png";
-import { SelectButton } from "./SelectButton";
+import { SelectButton } from "./answers/SelectButton";
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -52,29 +52,7 @@ function HeroHome() {
                 👋 Гайд Помощи
               </span>
             </h1>
-            <div className="max-w-3xl mx-auto">
-              <p
-                className="text-xl text-gray-600 mb-8"
-                data-aos="zoom-y-out"
-                data-aos-delay="150"
-              >
-                Чтобы получить ответ на свой вопрос, пройдите простой опросник:
-              </p>
-              <SelectButton
-                icon="🆘"
-                title="Мне нужна помощь"
-                description="Найти как добраться в страну следования."
-                className="bg-gradient-to-r from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
-              />
-              <SelectButton
-                icon="🤝"
-                title="Я могу помочь"
-                description="Я хочу помочь людям пострадавших от войны."
-                className="bg-gradient-to-r p-1 from-[#D8B4FE] to-[#818CF8]"
-              />
-            </div>
           </div>
-
           {/* Hero image */}
         </div>
       </div>

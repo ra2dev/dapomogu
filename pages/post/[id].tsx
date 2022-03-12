@@ -1,4 +1,4 @@
-import { getDatabase, getPage } from "../lib/notion";
+import { getDatabase, getPage } from "../../lib/notion";
 import Link from "next/link";
 import { NotionRenderer } from "react-notion-x";
 import { NotionAPI } from "notion-client";
@@ -38,6 +38,7 @@ export const getStaticProps = async (context) => {
   // https://developers.notion.com/docs/working-with-page-content#reading-nested-blocks
   const recordMap = await notion.getPage(
     page.url.replace("https://www.notion.so/")
+
   );
 
   return {
