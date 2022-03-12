@@ -1,22 +1,30 @@
-import { getDatabase, getPage } from "../../lib/notion";
-import Link from "next/link";
 import { NotionRenderer } from "react-notion-x";
 import { NotionAPI } from "notion-client";
+import Head from "next/head";
+import React from "react";
+import { getDatabase, getPage } from "../../lib/notion";
+import Header from "../../components/Header";
 
 const notion = new NotionAPI();
 
 export default function Post({ recordMap }) {
   return (
-    <div>
-      <article>
-        <section>
-          <Link href="/">
-            <a>← Go home</a>
-          </Link>
-          <br />
-          <NotionRenderer recordMap={recordMap} />
-        </section>
-      </article>
+    <div className="flex flex-col min-h-screen overflow-hidden">
+      <Head>
+        <title>Помощник Гайд</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Header showBackBtn />
+      <main className="flex-grow main-notion-render  mt-16 md:mt-20">
+        <div className="relative">
+          <NotionRenderer
+            recordMap={recordMap}
+            fullPage
+            showTableOfContents
+            darkMode={false}
+          />
+        </div>
+      </main>
     </div>
   );
 }
@@ -37,8 +45,7 @@ export const getStaticProps = async (context) => {
   // Retrieve block children for nested blocks (one level deep), for example toggle blocks
   // https://developers.notion.com/docs/working-with-page-content#reading-nested-blocks
   const recordMap = await notion.getPage(
-    page.url.replace("https://www.notion.so/")
-
+    page.url.replace("https://www.notion.so/", "")
   );
 
   return {

@@ -1,0 +1,12 @@
+.main-notion-render .notion-header {
+  display: none;
+}
+.main-notion-render .notion-frame {
+  padding: 0;
+}
+@media screen and (max-width: 700px) {
+  .main-notion-render .notion-page-cover {
+    min-height: 80px;
+    height: 80px;
+  }
+}

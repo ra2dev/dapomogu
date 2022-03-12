@@ -118,7 +118,7 @@ export const flowConfig: FlowConfig = {
           },
           next: {
             type: NextType.REDIRECT,
-            postId: "ukraine-go-back",
+            postId: "9c85d27b832c47238e6429ad290e13ee",
           },
         },
         {
@@ -130,7 +130,7 @@ export const flowConfig: FlowConfig = {
           },
           next: {
             type: NextType.REDIRECT,
-            postId: "shelter-western-ukraine",
+            postId: "9c85d27b832c47238e6429ad290e13ee",
           },
         },
       ],
@@ -144,12 +144,12 @@ export const flowConfig: FlowConfig = {
           answer: {
             type: AnswerType.COMMON_SELECT,
             config: {
-              text: "Да",
+              text: "Самолеты",
             },
           },
           next: {
             type: NextType.REDIRECT,
-            postId: "belarus-has-eu",
+            postId: "7571be367b6f4dd1b752c230f991d695",
           },
         },
         {
