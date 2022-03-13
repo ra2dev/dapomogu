@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button, Link, Text } from "@nextui-org/react";
 import { ArrowLeftIcon, SearchIcon } from "@heroicons/react/outline";
 import { useRouter } from "next/router";
+import { SearchBox } from "./search/SearchBox";
 
 function Header({ showBackBtn }: { showBackBtn?: boolean }) {
   const [top, setTop] = useState(true);
@@ -55,8 +56,8 @@ function Header({ showBackBtn }: { showBackBtn?: boolean }) {
           {/* Site navigation */}
           <nav className="flex flex-grow">
             <div className="ml-auto">
-              <button className="w-9 h-9 bg-gray-200 rounded-lg flex items-center justify-center hover:ring-2 ring-gray-300 transition-all">
-                <SearchIcon height="20px" />
+              <button className="pl-4 pr-4 h-9 bg-gray-200 rounded-lg flex items-center justify-center hover:ring-2 ring-gray-300 transition-all">
+                Поиск <SearchIcon height="20px" className="ml-4" />
               </button>
             </div>
           </nav>
