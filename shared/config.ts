@@ -71,6 +71,19 @@ export const flowConfig: FlowConfig = {
             questionId: "belarus-select",
           },
         },
+        // {
+        //   answer: {
+        //     type: AnswerType.COUNTRY_SELECT,
+        //     config: {
+        //       text: "Европа",
+        //       flag: "europe",
+        //     },
+        //   },
+        //   next: {
+        //     type: NextType.QUESTION,
+        //     questionId: "belarus-select",
+        //   },
+        // },
       ],
     },
     ["belarus-select"]: {
@@ -133,6 +146,18 @@ export const flowConfig: FlowConfig = {
             postId: "9c85d27b832c47238e6429ad290e13ee",
           },
         },
+        // {
+        //   answer: {
+        //     type: AnswerType.ARTICLE_PREVIEW,
+        //     config: {
+        //       text: "Приюты в Восточной Украине",
+        //     },
+        //   },
+        //   next: {
+        //     type: NextType.REDIRECT,
+        //     postId: "9c85d27b832c47238e6429ad290e13ee",
+        //   },
+        // },
       ],
     },
     ["belarus-non-belarusian"]: {
