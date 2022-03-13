@@ -38,7 +38,7 @@ const Tag = ({ name, color }) => {
           textOverflow: "ellipsis",
         }}
       >
-        {name} {color}
+        {name}
       </div>
     </div>
   );
@@ -48,7 +48,7 @@ export const TagsRender = ({ tags }) => {
   return (
     <div className="flex flex-wrap">
       {tags?.map((e) => (
-        <Tag color={e.color} name={e.name} />
+        <Tag color={e.color} name={e.name} key={e.name} />
       ))}
     </div>
   );

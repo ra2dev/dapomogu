@@ -1,9 +1,11 @@
 import Head from "next/head";
+import React, { useState } from "react";
 import Header from "../components/Header";
-import React from "react";
 import { FlowEngine } from "../components/flow/FlowEngine/FlowEngine";
+import { BlogList } from "../components/blog-list/BlogList";
 
 export default function Main() {
+  const [next, setNext] = useState(false);
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       <Head>
@@ -12,7 +14,8 @@ export default function Main() {
       </Head>
       <Header />
       <main className="flex-grow">
-        <FlowEngine />
+        <FlowEngine setNext={setNext} next={next} />
+        {!next && <BlogList />}
       </main>
     </div>
   );

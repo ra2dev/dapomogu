@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { Link, Text } from "@nextui-org/react";
+import { Link } from "@nextui-org/react";
 import { ArrowLeftIcon } from "@heroicons/react/outline";
 import { flowConfig } from "../../../shared/config";
 import { answerMap, questionMap } from "../../../shared/components";
 import { NextConfig, NextType } from "../../../shared/questions";
 import { CommonQuestion } from "../../questions/CommonQuestion";
 
-export const FlowEngine = ({ config = flowConfig }) => {
+export const FlowEngine = ({ config = flowConfig, setNext, next }) => {
   const [step, setStep] = useState<string[] | undefined>([]);
   const router = useRouter();
   const lastStep: string = step[step.length - 1] ?? "root";
@@ -22,6 +22,16 @@ export const FlowEngine = ({ config = flowConfig }) => {
       setStep([...(step || []), next.questionId]);
     }
   };
+
+  useEffect(() => {
+    if (step.length > 0) {
+      if (!next) {
+        setNext(true);
+      }
+    } else if (next) {
+      setNext(false);
+    }
+  }, [step, next]);
 
   const onBackAnswer = () => {
     const result = [...step];
@@ -53,6 +63,13 @@ export const FlowEngine = ({ config = flowConfig }) => {
             <ArrowLeftIcon className="h-5 mr-3" />
             Назад
           </Link>
+        )}
+        {!next && (
+          <>
+            <div className="text-sm text-gray-600 mb-8 text-center">
+              ❗️ВКЛЮЧИТЕ VPN И ВСЕГДА ИМЕЙТЕ ДОСТУП К САЙТУ❗️
+            </div>
+          </>
         )}
       </section>
     </div>

@@ -56,6 +56,7 @@ function HeroHome() {
           {/* Hero image */}
         </div>
       </div>
+
     </section>
   );
 }

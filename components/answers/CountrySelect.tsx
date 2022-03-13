@@ -19,7 +19,13 @@ export const CountrySelect = ({ text, flag, onSelect }) => {
             border: `2px solid #f4f4f4`,
           }}
         >
-          <Image src={`/flags/${flag}.png`} width="60px" height="60px" />
+          <Image
+            src={`/flags/${flag}.png`}
+            width="60px"
+            height="60px"
+            priority={true}
+            objectFit="cover"
+          />
         </div>
         <div className="text-center w-full">
           <div className="font-bold leading-snug tracking-tight mb-1">

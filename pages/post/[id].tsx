@@ -1,14 +1,11 @@
 import { NotionRenderer } from "react-notion-x";
-import { NotionAPI } from "notion-client";
 import Head from "next/head";
 import React from "react";
 import cn from "classnames";
 import { LazyImage } from "../../components/blog/LazyImage";
-import { getDatabase, getPage } from "../../lib/notion";
 import Header from "../../components/Header";
 import { TagsRender } from "../../components/blog/TagsRender";
-
-const notion = new NotionAPI();
+import { getPageTitle } from "../../shared/helpers/data";
 
 const formatPostDate = (date) => {
   try {
@@ -26,15 +23,9 @@ const formatPostDate = (date) => {
 
 export default function Post({ recordMap, page }: any) {
   const bgUrl = page?.cover?.external?.url;
-
-  const title = page?.properties?.Name?.title?.reduce(
-    (acc, e) => acc + (e?.plain_text || ""),
-    ""
-  );
-
+  const title = getPageTitle(page);
   const tags = page?.properties?.Tags?.multi_select;
 
-  // pb-8 sm:pb-16
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       <Head>
@@ -86,23 +77,20 @@ export default function Post({ recordMap, page }: any) {
 }
 
 export const getStaticPaths = async () => {
-  const database = await getDatabase(process.env.NOTION_DATABASE_ID);
+  const config = await import("../../articles-meta.json");
 
   return {
-    paths: database.map((page) => ({ params: { id: page.id } })),
+    paths: Object.keys(config?.articles || {}).map((id) => ({
+      params: { id },
+    })),
     fallback: true,
   };
 };
 
 export const getStaticProps = async (context) => {
   const { id } = context.params;
-  const page: any = await getPage(id);
-
-  // Retrieve block children for nested blocks (one level deep), for example toggle blocks
-  // https://developers.notion.com/docs/working-with-page-content#reading-nested-blocks
-  const recordMap = await notion.getPage(
-    page.url.replace("https://www.notion.so/", "")
-  );
+  const config = await import("../../articles-meta.json");
+  const { recordMap, page } = config.articles[id];
 
   return {
     props: {
