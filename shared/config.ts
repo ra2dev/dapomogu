@@ -35,7 +35,7 @@ export const flowConfig: FlowConfig = {
           },
           next: {
             type: NextType.REDIRECT,
-            postId: "help-state",
+            postId: "9c85d27b832c47238e6429ad290e13ee",
           },
         },
       ],
@@ -112,7 +112,7 @@ export const flowConfig: FlowConfig = {
           },
           next: {
             type: NextType.REDIRECT,
-            postId: "belarus-leave-experience",
+            postId: "9c85d27b832c47238e6429ad290e13ee",
           },
         },
       ],
@@ -146,18 +146,18 @@ export const flowConfig: FlowConfig = {
             postId: "9c85d27b832c47238e6429ad290e13ee",
           },
         },
-        // {
-        //   answer: {
-        //     type: AnswerType.ARTICLE_PREVIEW,
-        //     config: {
-        //       text: "Приюты в Восточной Украине",
-        //     },
-        //   },
-        //   next: {
-        //     type: NextType.REDIRECT,
-        //     postId: "9c85d27b832c47238e6429ad290e13ee",
-        //   },
-        // },
+        {
+          answer: {
+            type: AnswerType.ARTICLE_PREVIEW,
+            config: {
+              text: "Выезд в Литву и Польшу через Калининград",
+            },
+          },
+          next: {
+            type: NextType.REDIRECT,
+            postId: "9c85d27b832c47238e6429ad290e13ee",
+          },
+        },
       ],
     },
     ["belarus-non-belarusian"]: {
@@ -174,7 +174,7 @@ export const flowConfig: FlowConfig = {
           },
           next: {
             type: NextType.REDIRECT,
-            postId: "7571be367b6f4dd1b752c230f991d695",
+            postId: "9c85d27b832c47238e6429ad290e13ee",
           },
         },
         {
@@ -186,7 +186,7 @@ export const flowConfig: FlowConfig = {
           },
           next: {
             type: NextType.REDIRECT,
-            postId: "belarus-has-no-eu",
+            postId: "9c85d27b832c47238e6429ad290e13ee",
           },
         },
       ],

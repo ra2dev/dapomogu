@@ -1,4 +1,4 @@
-import { NotionRenderer } from "react-notion-x";
+import { CollectionRow, NotionRenderer } from "react-notion-x";
 import Head from "next/head";
 import React from "react";
 import cn from "classnames";
@@ -6,6 +6,7 @@ import { LazyImage } from "../../components/blog/LazyImage";
 import Header from "../../components/Header";
 import { TagsRender } from "../../components/blog/TagsRender";
 import { getPageTitle } from "../../shared/helpers/data";
+import config from "../../articles-meta.json";
 
 const formatPostDate = (date) => {
   try {
@@ -67,8 +68,10 @@ export default function Post({ recordMap, page }: any) {
           recordMap={recordMap}
           disableHeader={true}
           fullPage={false}
+          components={{
+            collectionRow: CollectionRow,
+          }}
           minTableOfContentsItems={2}
-          showTableOfContents={true}
           darkMode={false}
         />
       </main>
@@ -77,8 +80,6 @@ export default function Post({ recordMap, page }: any) {
 }
 
 export const getStaticPaths = async () => {
-  const config = await import("../../articles-meta.json");
-
   return {
     paths: Object.keys(config?.articles || {}).map((id) => ({
       params: { id },
@@ -89,7 +90,6 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
   const { id } = context.params;
-  const config = await import("../../articles-meta.json");
   const { recordMap, page } = config.articles[id];
 
   return {
