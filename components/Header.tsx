@@ -44,14 +44,10 @@ function Header({ showBackBtn }: { showBackBtn?: boolean }) {
               <Text
                 h2
                 size={30}
-                css={{
-                  textGradient: "45deg, $yellow500 -20%, $red500 100%",
-                  textDecoration: "underline",
-                }}
                 weight="bold"
                 className="underline cursor-pointer"
               >
-                UA Support
+                RSFY
               </Text>
             )}
           </div>
