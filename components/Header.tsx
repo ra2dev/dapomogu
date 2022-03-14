@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import { Button, Link, Text } from "@nextui-org/react";
 import { ArrowLeftIcon, SearchIcon } from "@heroicons/react/outline";
 import { useRouter } from "next/router";
 import { SearchBox } from "./search/SearchBox";
+import {Tag} from "./blog/TagsRender";
 
 function Header({ showBackBtn }: { showBackBtn?: boolean }) {
   const [top, setTop] = useState(true);
@@ -46,14 +48,16 @@ function Header({ showBackBtn }: { showBackBtn?: boolean }) {
                   Назад
                 </Link>
               ) : (
-                <Text
-                  h2
-                  size={30}
-                  weight="bold"
-                  className="underline cursor-pointer"
-                >
-                  RSFY
-                </Text>
+                 <div>
+                   <div className="flex">
+                     <Text size={30} className="text-[20px] md:text-[30px]">
+                       FYRS
+                     </Text>
+                     <Tag name="BETA" color="orange"/>
+                   </div>
+                   <div className="hidden md:flex text-xs mt-[-10px]">Fuck You russian Ship</div>
+                 </div>
+
               )}
             </div>
 
@@ -61,10 +65,10 @@ function Header({ showBackBtn }: { showBackBtn?: boolean }) {
             <nav className="flex flex-grow">
               <div className="ml-auto">
                 <button
-                  className="pl-4 pr-4 h-9 bg-gray-200 rounded-lg flex items-center justify-center hover:ring-2 ring-gray-300 transition-all"
+                  className="border border-gray-200 pl-4 pr-4 h-9 bg-gray-100 rounded-md flex items-center justify-center hover:ring-2 ring-gray-300 transition-all"
                   onClick={() => setOpen(true)}
                 >
-                  Поиск <SearchIcon height="20px" className="ml-4" />
+                  <SearchIcon height="20px" className="mr-0 md:mr-4" /> <div className="hidden md:flex">Поиск ...</div>
                 </button>
               </div>
             </nav>

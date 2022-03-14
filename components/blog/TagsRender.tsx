@@ -11,7 +11,7 @@ const bgColors = {
   orange: "#f9dec9",
 };
 
-const Tag = ({ name, color }) => {
+export const Tag = ({ name, color }) => {
   const resultBg = bgColors[color] ?? bgColors.default;
   return (
     <div
@@ -24,12 +24,12 @@ const Tag = ({ name, color }) => {
         borderRadius: "3px",
         paddingLeft: "6px",
         paddingRight: "6px",
-        fontSize: "14px",
         lineHeight: "120%",
         background: resultBg,
         color: "rgb(73, 41, 14)",
         margin: "0px 6px 6px 0px",
       }}
+      className="text-xs md:text-sm scale-[0.7] md:scale-100"
     >
       <div
         style={{
