@@ -20,6 +20,8 @@ export const FlowEngine = ({ config = flowConfig, setNext, next }) => {
       return router.push(`/post/${next.postId}`);
     } else if (next.type === NextType.QUESTION) {
       setStep([...(step || []), next.questionId]);
+    } else if (next.type === NextType.REDIRECT_EXTERNAL) {
+      window.open(next.link, "_blank");
     }
   };
 
@@ -42,7 +44,9 @@ export const FlowEngine = ({ config = flowConfig, setNext, next }) => {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 mt-7">
       <section className="relative mt-20 md:mt-30 pt-10">
-        {question && <QuestionComponent text={question.text} {...question.config} />}
+        {question && (
+          <QuestionComponent text={question.text} {...question.config} />
+        )}
         {answers?.map(({ answer, next }, i) => {
           const AnswerComponent = answerMap[answer.type];
 
