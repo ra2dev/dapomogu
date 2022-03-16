@@ -4,6 +4,7 @@ import fetch from "node-fetch";
 import cn from "classnames";
 import { ArrowRightIcon } from "@heroicons/react/outline";
 import Link from "next/link";
+import { TagsRender } from "../blog/TagsRender";
 
 const CardInfo = ({ post }) => {
   return (
@@ -11,7 +12,7 @@ const CardInfo = ({ post }) => {
       <Card
         clickable
         bordered
-        className={cn("hover:bg-gray-200 shadow hover:shadow mb-4")}
+        className={cn("hover:bg-gray-200 shadow-none hover:shadow mb-4")}
       >
         <div className="flex items-center w-full bg-raty">
           <div className="w-full">
@@ -21,8 +22,11 @@ const CardInfo = ({ post }) => {
             <div className="text-gray-600">{post.description}</div>
           </div>
         </div>
-        <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0  ml-auto">
-          <ArrowRightIcon height="20px" />
+        <div className="flex">
+          <TagsRender tags={post.tags} />
+          <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0  ml-auto">
+            <ArrowRightIcon height="20px" />
+          </div>
         </div>
       </Card>
     </Link>

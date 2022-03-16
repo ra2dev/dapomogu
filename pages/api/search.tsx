@@ -16,6 +16,7 @@ export default function handler(req, res) {
       .map(([key, page]) => ({
         id: key,
         name: getPageTitle(page.page),
+        tags: page.page?.properties?.Tags?.multi_select ?? [],
       }));
   }
 
