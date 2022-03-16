@@ -12,6 +12,7 @@ export enum AnswerType {
 
 export enum NextType {
   REDIRECT = "redirect",
+  REDIRECT_EXTERNAL = "redirect-external",
   QUESTION = "question",
 }
 
@@ -23,6 +24,10 @@ export type NextConfig =
   | {
       type: NextType.QUESTION;
       questionId: string;
+    }
+  | {
+      type: NextType.REDIRECT_EXTERNAL;
+      link: string;
     };
 
 export type AnswerConfig = {
@@ -47,5 +52,3 @@ export type FlowConfig = {
     [question: string]: QuestionItemConfig;
   };
 };
-
-

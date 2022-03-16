@@ -13,7 +13,7 @@ export const FlowEngine = ({ config = flowConfig, setNext, next }) => {
   const lastStep: string = step[step.length - 1] ?? "root";
   const { question, answers } = config.questions[lastStep];
 
-  const QuestionComponent = questionMap[question.type] ?? CommonQuestion;
+  const QuestionComponent = questionMap[question?.type] ?? CommonQuestion;
 
   const onAnswerSelect = (next: NextConfig) => () => {
     if (next.type === NextType.REDIRECT) {
@@ -42,7 +42,7 @@ export const FlowEngine = ({ config = flowConfig, setNext, next }) => {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 mt-7">
       <section className="relative mt-20 md:mt-30 pt-10">
-        <QuestionComponent text={question.text} {...question.config} />
+        {question && <QuestionComponent text={question.text} {...question.config} />}
         {answers?.map(({ answer, next }, i) => {
           const AnswerComponent = answerMap[answer.type];
 

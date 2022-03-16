@@ -15,7 +15,7 @@ export const SelectButton = ({
       bordered
       css={{ mb: "20px" }}
       onClick={onSelect}
-      className={cn("hover:bg-gray-200 shadow hover:shadow", className)}
+      className={cn("hover:bg-gray-200 shadow-none hover:shadow", className)}
     >
       <div className="flex items-center w-full bg-raty h-20 md:h-25">
         <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 mr-3">
