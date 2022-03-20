@@ -1,8 +1,10 @@
-## FYRS / Info Page
+## Dapomogu / Info Page
 
-Include questions/answers/links related EU,Belarus,Ukraine.
+Include questions/answers/links related EU,Ukraine,Belarus in scope of urgent relocation.
 
+### Envs
 
-- https://fyrs.vercel.app/
+- **Production**: https://dapomogu.app/
+- **Staging**: https://dapomogu.vercel.app/
 
 
