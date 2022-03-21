@@ -18,14 +18,14 @@ export const SelectButton = ({
       className={cn("hover:bg-gray-200 shadow-none hover:shadow", className)}
     >
       <div className="flex items-center w-full bg-raty h-20 md:h-25">
-        <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 mr-3">
-          {icon}
-        </div>
-        <div className="text-center w-full">
+        <div className="text-left w-full">
           <div className="font-bold leading-snug tracking-tight mb-1">
             {text}
           </div>
           <div className="text-gray-600">{description}</div>
+        </div>
+        <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 mr-3">
+          {icon}
         </div>
       </div>
     </Card>

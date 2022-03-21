@@ -57,7 +57,7 @@ export const BlogList = () => {
       style={{ marginTop: "calc(100vh - 580px)" }}
     >
       <div className="mb-2">
-        <div className="text-xl text-gray-600">Посты:</div>
+        <div className="text-xl text-gray-700">Популярные статьи:</div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 flex-wrap mb-4">
         {posts.slice(0, MAX_SHOW_LENGTH).map((e) => (

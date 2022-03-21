@@ -42,7 +42,7 @@ export const FlowEngine = ({ config = flowConfig, setNext, next }) => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 mt-7">
+    <div className="max-w-[700px] mx-auto px-4 sm:px-6 mt-7">
       <section className="relative mt-20 md:mt-30 pt-10">
         {question && (
           <QuestionComponent text={question.text} {...question.config} />

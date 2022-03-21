@@ -4,7 +4,7 @@ import { Button, Link, Text } from "@nextui-org/react";
 import { ArrowLeftIcon, SearchIcon } from "@heroicons/react/outline";
 import { useRouter } from "next/router";
 import { SearchBox } from "./search/SearchBox";
-import {Tag} from "./blog/TagsRender";
+import { Tag } from "./blog/TagsRender";
 
 function Header({ showBackBtn }: { showBackBtn?: boolean }) {
   const [top, setTop] = useState(true);
@@ -35,7 +35,6 @@ function Header({ showBackBtn }: { showBackBtn?: boolean }) {
       >
         <div className="max-w-6xl mx-auto px-5 sm:px-6">
           <div className="flex items-center justify-between h-16 md:h-20">
-            {/* Site branding */}
             <div className="flex-shrink-0 mr-4 cursor-pointer">
               {/* Logo */}
               {showBackBtn ? (
@@ -48,16 +47,19 @@ function Header({ showBackBtn }: { showBackBtn?: boolean }) {
                   Назад
                 </Link>
               ) : (
-                 <div>
-                   <div className="flex">
-                     <Text size={30} className="text-[20px] md:text-[30px]">
-                       FYRS
-                     </Text>
-                     <Tag name="BETA" color="orange"/>
-                   </div>
-                   <div className="hidden md:flex text-xs mt-[-10px]">Fuck You russian Ship</div>
-                 </div>
-
+                <div>
+                  <div className="flex">
+                    <Text size={16} className="text-[10px] md:text-[16px]">
+                      Мне нужна помошь
+                    </Text>
+                    <Text
+                      size={16}
+                      className="ml-10 text-[10px] md:text-[16px]"
+                    >
+                      Я хочу помочь
+                    </Text>
+                  </div>
+                </div>
               )}
             </div>
 
@@ -68,7 +70,8 @@ function Header({ showBackBtn }: { showBackBtn?: boolean }) {
                   className="border border-gray-200 pl-4 pr-4 h-9 bg-gray-100 rounded-md flex items-center justify-center hover:ring-2 ring-gray-300 transition-all"
                   onClick={() => setOpen(true)}
                 >
-                  <SearchIcon height="20px" className="mr-0 md:mr-4" /> <div className="hidden md:flex">Поиск ...</div>
+                  <SearchIcon height="20px" className="mr-0 md:mr-4" />{" "}
+                  <div className="hidden md:flex">Поиск ...</div>
                 </button>
               </div>
             </nav>
