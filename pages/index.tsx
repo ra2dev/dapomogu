@@ -12,7 +12,7 @@ export default function Main() {
       <BackgroundGradient />
       <div className="flex flex-col min-h-screen overflow-hidden">
         <Head>
-          <title>Помощник Гайд</title>
+          <title>Dapomogu</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Header />
