@@ -32,6 +32,9 @@ export const FlowEngine = ({ config = flowConfig, setNext, next }) => {
     if (next.type === NextType.REDIRECT) {
       return router.push(`/post/${next.postId}`);
     } else if (next.type === NextType.QUESTION) {
+
+      console.log('next.questionId', next)
+      console.log('next.questionId', next.questionId)
       setStep([...(step || []), next.questionId]);
     } else if (next.type === NextType.REDIRECT_EXTERNAL) {
       window.open(next.link, "_blank");

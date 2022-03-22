@@ -48,6 +48,7 @@ export type QuestionItemConfig = {
   answers: AnswerConfig[];
 };
 
+
 export type FlowConfig = {
   questions: {
     [question: string]: QuestionItemConfig;

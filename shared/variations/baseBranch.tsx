@@ -19,7 +19,7 @@ export const baseBranch: FlowConfig["questions"] = {
         },
         next: {
           type: NextType.QUESTION,
-          questionId: "select-country",
+          questionId: "need-help-select-country",
         },
       },
       {
@@ -33,13 +33,13 @@ export const baseBranch: FlowConfig["questions"] = {
           },
         },
         next: {
-          type: NextType.REDIRECT,
-          postId: "9c85d27b832c47238e6429ad290e13ee",
+          type: NextType.QUESTION,
+          questionId: "can-help",
         },
       },
     ],
   },
-  ["select-country"]: {
+  ["need-help-select-country"]: {
     question: {
       text: "В какой стране вы сейчас?",
     },
@@ -80,7 +80,7 @@ export const baseBranch: FlowConfig["questions"] = {
         },
         next: {
           type: NextType.QUESTION,
-          questionId: "europe-select",
+          questionId: "eu-select",
         },
       },
       {
@@ -106,7 +106,7 @@ export const baseBranch: FlowConfig["questions"] = {
         },
         next: {
           type: NextType.QUESTION,
-          questionId: "rus-select",
+          questionId: "ge-select",
         },
       },
       {
