@@ -13,8 +13,6 @@ export const baseBranch: FlowConfig["questions"] = {
             iconType: "NeedHelpIcon",
             text: "Мне нужна помощь",
             description: "Найти как добраться в страну следования.",
-            className:
-              "bg-gradient-to-r from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]",
           },
         },
         next: {
@@ -27,9 +25,9 @@ export const baseBranch: FlowConfig["questions"] = {
           type: AnswerType.COMMON_SELECT,
           config: {
             iconType: "CanHelpIcon",
-            text: "Я могу помочь",
-            description: "Я хочу помочь людям пострадавших от войны.",
-            className: "bg-gradient-to-r p-1 from-[#D8B4FE] to-[#818CF8]",
+            iconClassName: "select-secondary-icon",
+            text: "Я хочу помочь",
+            description: "Помочь людям, пострадавшим от войны.",
           },
         },
         next: {

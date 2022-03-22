@@ -3,7 +3,7 @@ import Head from "next/head";
 import React from "react";
 import cn from "classnames";
 import { LazyImage } from "../../components/blog/LazyImage";
-import Header from "../../components/Header";
+import Header from "../../components/header/Header";
 import { TagsRender } from "../../components/blog/TagsRender";
 import { getPageTitle } from "../../shared/helpers/data";
 import config from "../../articles-meta.json";

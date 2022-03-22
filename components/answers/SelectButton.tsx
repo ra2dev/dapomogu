@@ -10,6 +10,7 @@ export const SelectButton = ({
   className,
   onSelect,
   iconType,
+  iconClassName,
 }) => {
   const ResultIcon = Icons[iconType];
   return (
@@ -29,7 +30,9 @@ export const SelectButton = ({
         </div>
 
         {ResultIcon ? (
-          <ResultIcon />
+          <span className={iconClassName}>
+            <ResultIcon />
+          </span>
         ) : (
           <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 mr-3">
             {icon}

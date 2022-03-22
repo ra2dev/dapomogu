@@ -8,6 +8,16 @@ body {
   padding: 0;
   margin: 0;
   /*background: linear-gradient(92.75deg, #B764D2 -2.24%, #2D72EA 126.57%);*/
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.select-secondary-icon {
+  color: #5d5fef;
+  svg {
+    fill: #5d5fef;
+    path {
+      stroke: #5d5fef;
+    }
+  }
 }

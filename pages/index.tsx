@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React, { useState } from "react";
-import Header from "../components/Header";
+import Header from "../components/header/Header";
 import { FlowEngine } from "../components/flow/FlowEngine/FlowEngine";
 import { BlogList } from "../components/blog-list/BlogList";
 import { BackgroundGradient } from "../components/BackgroundGradient";

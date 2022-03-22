@@ -35,14 +35,14 @@ export const CanHelpIcon = () => {
       viewBox="0 0 48 48"
     >
       <path
-        stroke="#DE3663"
+        stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="3"
         d="M24 9.75a3.75 3.75 0 017.5 0V21M16.5 12.75v-6a3.75 3.75 0 017.5 0V19.5"
       ></path>
       <path
-        stroke="#DE3663"
+        stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="3"

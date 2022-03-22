@@ -97,11 +97,6 @@ export function SearchBox({ open, setOpen }: any) {
                           >
                             {e.name}
                           </span>
-                          <span
-                            className={active ? "text-white" : "text-gray-900"}
-                          >
-                            -
-                          </span>
                         </div>
                       )}
                     </Combobox.Option>

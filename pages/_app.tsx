@@ -19,6 +19,10 @@ const theme = createTheme({
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
+    if (window.location.href.includes("invite=INVITELINKSAMPLE")) {
+      window.location.href = "/";
+      localStorage.setItem("hlc", "true");
+    }
     if (!localStorage.getItem("hlc")) {
       document.body.innerHTML = "";
     }

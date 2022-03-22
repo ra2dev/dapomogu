@@ -11,6 +11,7 @@ export const canHelpBranch: Record<string, QuestionItemConfig> = {
           type: AnswerType.COMMON_SELECT,
           config: {
             text: "Помощь из любой точки мира",
+            icon: "🌍",
           },
         },
         next: {
