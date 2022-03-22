@@ -25,6 +25,19 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600&display=swap"
             rel="stylesheet"
           />
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-7PP43NNH3F"
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-7PP43NNH3F');`,
+            }}
+          />
         </Head>
         <body>
           <Main />
