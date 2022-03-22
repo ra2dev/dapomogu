@@ -43,7 +43,17 @@ export const FlowEngine = ({ config = flowConfig, setNext, next }) => {
 
   return (
     <div className="max-w-[700px] mx-auto px-4 sm:px-6 mt-7">
-      <section className="relative mt-20 md:mt-30 pt-10">
+      <section className="relative mt-20 md:mt-30 pt-0 md:pt-10">
+        {step.length > 0 && (
+          <Link
+            color="primary"
+            onClick={onBackAnswer}
+            className="flex items-center pl-4 pr-4 pt-2 pb-5 ml-[-15px]"
+          >
+            <ArrowLeftIcon className="h-5 mr-3" />
+            Назад
+          </Link>
+        )}
         {question && (
           <QuestionComponent text={question.text} {...question.config} />
         )}
@@ -58,23 +68,6 @@ export const FlowEngine = ({ config = flowConfig, setNext, next }) => {
             />
           );
         })}
-        {step.length > 0 && (
-          <Link
-            color="primary"
-            onClick={onBackAnswer}
-            className="flex items-center pl-4 pr-4 pt-2 pb-2"
-          >
-            <ArrowLeftIcon className="h-5 mr-3" />
-            Назад
-          </Link>
-        )}
-        {!next && (
-          <>
-            <div className="text-sm text-gray-600 mb-8 text-center">
-              ❗️ВКЛЮЧИТЕ VPN И ВСЕГДА ИМЕЙТЕ ДОСТУП К САЙТУ❗️
-            </div>
-          </>
-        )}
       </section>
     </div>
   );

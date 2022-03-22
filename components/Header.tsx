@@ -5,6 +5,7 @@ import { ArrowLeftIcon, SearchIcon } from "@heroicons/react/outline";
 import { useRouter } from "next/router";
 import { SearchBox } from "./search/SearchBox";
 import { Tag } from "./blog/TagsRender";
+import { Menu } from "./mobile/Menu";
 
 function Header({ showBackBtn }: { showBackBtn?: boolean }) {
   const [top, setTop] = useState(true);
@@ -36,31 +37,16 @@ function Header({ showBackBtn }: { showBackBtn?: boolean }) {
         <div className="max-w-6xl mx-auto px-5 sm:px-6">
           <div className="flex items-center justify-between h-16 md:h-20">
             <div className="flex-shrink-0 mr-4 cursor-pointer">
-              {/* Logo */}
-              {showBackBtn ? (
-                <Link
-                  color="primary"
-                  onClick={onBack}
-                  className="flex items-center pl-4 pr-4 pt-2 pb-2"
-                >
-                  <ArrowLeftIcon className="h-5 mr-3" />
-                  Назад
-                </Link>
-              ) : (
-                <div>
-                  <div className="flex">
-                    <Text size={16} className="text-[10px] md:text-[16px]">
-                      Мне нужна помошь
-                    </Text>
-                    <Text
-                      size={16}
-                      className="ml-10 text-[10px] md:text-[16px]"
-                    >
-                      Я хочу помочь
-                    </Text>
-                  </div>
+              <div>
+                <div className="flex hidden md:flex">
+                  <Text size={16} className="text-[10px] md:text-[16px]">
+                    Мне нужна помошь
+                  </Text>
+                  <Text size={16} className="ml-10 text-[10px] md:text-[16px]">
+                    Я хочу помочь
+                  </Text>
                 </div>
-              )}
+              </div>
             </div>
 
             {/* Site navigation */}

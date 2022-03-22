@@ -29,7 +29,7 @@ export const Tag = ({ name, color }) => {
         color: "rgb(73, 41, 14)",
         margin: "0px 6px 6px 0px",
       }}
-      className="text-xs md:text-sm scale-[0.7] md:scale-100"
+      className="text-sm"
     >
       <div
         style={{

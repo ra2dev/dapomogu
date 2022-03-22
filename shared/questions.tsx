@@ -4,7 +4,7 @@ export enum QuestionType {
 }
 
 export enum AnswerType {
-  HELP_SELECT = "HelpSelect",
+  // HELP_SELECT = "HelpSelect",
   COUNTRY_SELECT = "CountrySelect",
   COMMON_SELECT = "CommonSelect",
   ARTICLE_PREVIEW = "ArticlePreview",

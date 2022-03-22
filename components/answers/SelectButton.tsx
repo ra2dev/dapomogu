@@ -1,6 +1,7 @@
 import React from "react";
 import cn from "classnames";
 import { Card } from "@nextui-org/react";
+import * as Icons from "../icons/Icon";
 
 export const SelectButton = ({
   text,
@@ -8,7 +9,9 @@ export const SelectButton = ({
   description,
   className,
   onSelect,
+  iconType,
 }) => {
+  const ResultIcon = Icons[iconType];
   return (
     <Card
       clickable
@@ -19,14 +22,19 @@ export const SelectButton = ({
     >
       <div className="flex items-center w-full bg-raty h-20 md:h-25">
         <div className="text-left w-full">
-          <div className="font-bold leading-snug tracking-tight mb-1">
+          <div className="font-bold leading-snug tracking-tight mb-1 text-xl">
             {text}
           </div>
-          <div className="text-gray-600">{description}</div>
+          <div className="text-gray-600 text-md">{description}</div>
         </div>
-        <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 mr-3">
-          {icon}
-        </div>
+
+        {ResultIcon ? (
+          <ResultIcon />
+        ) : (
+          <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 mr-3">
+            {icon}
+          </div>
+        )}
       </div>
     </Card>
   );

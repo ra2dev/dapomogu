@@ -391,9 +391,9 @@ export const flowConfig: FlowConfig = {
       answers: [
         {
           answer: {
-            type: AnswerType.HELP_SELECT,
+            type: AnswerType.COMMON_SELECT,
             config: {
-              icon: "🆘",
+              iconType: "NeedHelpIcon",
               text: "Мне нужна помощь",
               description: "Найти как добраться в страну следования.",
               className:
@@ -407,9 +407,9 @@ export const flowConfig: FlowConfig = {
         },
         {
           answer: {
-            type: AnswerType.HELP_SELECT,
+            type: AnswerType.COMMON_SELECT,
             config: {
-              icon: "🤝",
+              iconType: "CanHelpIcon",
               text: "Я могу помочь",
               description: "Я хочу помочь людям пострадавших от войны.",
               className: "bg-gradient-to-r p-1 from-[#D8B4FE] to-[#818CF8]",
@@ -471,7 +471,33 @@ export const flowConfig: FlowConfig = {
             type: AnswerType.COUNTRY_SELECT,
             config: {
               text: "Россия",
-              flag: "rus",
+              flag: "russian",
+            },
+          },
+          next: {
+            type: NextType.QUESTION,
+            questionId: "rus-select",
+          },
+        },
+        {
+          answer: {
+            type: AnswerType.COUNTRY_SELECT,
+            config: {
+              text: "Грузия",
+              flag: "georgia",
+            },
+          },
+          next: {
+            type: NextType.QUESTION,
+            questionId: "rus-select",
+          },
+        },
+        {
+          answer: {
+            type: AnswerType.COUNTRY_SELECT,
+            config: {
+              text: "Турция",
+              flag: "turkey",
             },
           },
           next: {

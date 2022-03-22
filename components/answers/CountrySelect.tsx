@@ -10,27 +10,28 @@ export const CountrySelect = ({ text, flag, onSelect }) => {
       bordered
       css={{ mb: "20px" }}
       onClick={onSelect}
-      className="hover:bg-gray-200 shadow hover:shadow"
+      className="hover:bg-gray-200 shadow hover:shadow flex items-center"
     >
       <div className="flex items-center w-full">
+        <div className="text-left w-full">
+          <div className="font-bold leading-snug tracking-tight mb-1 text-xl">
+            {text}
+          </div>
+        </div>
         <div
-          className="flex justify-center items-center rounded-full shadow flex-shrink-0 mr-3 overflow-hidden"
+          className="overflow-hidden rounded-xl block"
           style={{
-            border: `2px solid #f4f4f4`,
+            height: "50px",
+            paddingTop: "8px",
           }}
         >
           <Image
-            src={`/flags/${flag}.png`}
-            width="60px"
-            height="60px"
+            src={`/flag/${flag}.png`}
+            width="67px"
+            height="48px"
             priority={true}
-            objectFit="cover"
+            objectFit="fill"
           />
-        </div>
-        <div className="text-center w-full">
-          <div className="font-bold leading-snug tracking-tight mb-1">
-            {text}
-          </div>
         </div>
       </div>
     </Card>

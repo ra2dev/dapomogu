@@ -7,6 +7,9 @@ import Header from "../../components/Header";
 import { TagsRender } from "../../components/blog/TagsRender";
 import { getPageTitle } from "../../shared/helpers/data";
 import config from "../../articles-meta.json";
+import { Link } from "@nextui-org/react";
+import { ArrowLeftIcon } from "@heroicons/react/outline";
+import { useRouter } from "next/router";
 
 const formatPostDate = (date) => {
   try {
@@ -23,6 +26,7 @@ const formatPostDate = (date) => {
 };
 
 export default function Post({ recordMap, page }: any) {
+  const router = useRouter();
   const bgUrl = page?.cover?.external?.url;
   const title = getPageTitle(page);
   const tags = page?.properties?.Tags?.multi_select;
@@ -32,13 +36,21 @@ export default function Post({ recordMap, page }: any) {
       <Head>
         <title>{title}</title>
       </Head>
-      <Header showBackBtn />
+      <Header />
       <main
         className={cn(
-          "flex-grow main-notion-render mt-16 md:mt-20 pb-16",
+          "flex-grow main-notion-render mt-10 md:mt-20 pb-16 pl-2 pr-2",
           !bgUrl && "pt-8 md:pt-16"
         )}
       >
+        <Link
+          color="primary"
+          onClick={() => router.back()}
+          className="flex items-center pl-6 pr-4 pt-2 pb-5 ml-[-15px]"
+        >
+          <ArrowLeftIcon className="h-5 mr-3" />
+          Назад
+        </Link>
         {bgUrl && (
           <LazyImage
             src={bgUrl}
