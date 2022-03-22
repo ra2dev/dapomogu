@@ -7,16 +7,28 @@ import { answerMap, questionMap } from "../../../shared/components";
 import { NextConfig, NextType } from "../../../shared/questions";
 import { CommonQuestion } from "../../questions/CommonQuestion";
 
-
 export const FlowEngine = ({ config = flowConfig, setNext, next }) => {
-  const [step, setStep] = useState<string[] | undefined>([]);
   const router = useRouter();
+
+  const [step, setStep] = useState<string[] | undefined>([]);
+
   const lastStep: string = step[step.length - 1] ?? "root";
   const { question, answers } = config.questions[lastStep];
-
   const QuestionComponent = questionMap[question?.type] ?? CommonQuestion;
 
+  useEffect(() => {
+    const starter = (router.query?.steps as any)?.split(".");
+    if (router.isReady && starter?.length) {
+      setStep(starter);
+    }
+  }, [router.isReady]);
+
   const onAnswerSelect = (next: NextConfig) => () => {
+    if (router.query?.steps) {
+      const newURL = location.href.split("?")[0];
+      window.history.pushState("object", document.title, newURL);
+    }
+
     if (next.type === NextType.REDIRECT) {
       return router.push(`/post/${next.postId}`);
     } else if (next.type === NextType.QUESTION) {
