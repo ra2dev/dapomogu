@@ -43,14 +43,16 @@ export default function Post({ recordMap, page }: any) {
           !bgUrl && "pt-8 md:pt-16"
         )}
       >
-        <Link
-          color="primary"
-          onClick={() => router.back()}
-          className="flex items-center pl-6 pr-4 pt-2 pb-5 ml-[-15px]"
-        >
-          <ArrowLeftIcon className="h-5 mr-3" />
-          Назад
-        </Link>
+        <div className="notion-page">
+          <Link
+            color="primary"
+            onClick={() => router.back()}
+            className="flex items-center pl-6 pr-4 pt-2 pb-5 ml-[-15px]"
+          >
+            <ArrowLeftIcon className="h-5 mr-3" />
+            Назад
+          </Link>
+        </div>
         {bgUrl && (
           <LazyImage
             src={bgUrl}

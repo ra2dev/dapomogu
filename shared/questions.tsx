@@ -23,7 +23,8 @@ export type NextConfig =
     }
   | {
       type: NextType.QUESTION;
-      questionId: string;
+      questionId?: string;
+      question?: QuestionItemConfig;
     }
   | {
       type: NextType.REDIRECT_EXTERNAL;
