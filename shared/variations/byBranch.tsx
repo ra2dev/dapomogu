@@ -148,12 +148,24 @@ export const byBranch: FlowConfig["questions"] = {
                 answer: {
                   type: AnswerType.ARTICLE_PREVIEW,
                   config: {
-                    text: "Проверить выездной ли я",
+                    text: "Проверить выездной/ая ли я",
                   },
                 },
                 next: {
-                  type: NextType.REDIRECT,
-                  postId: "https://t.me/bysol_evacuation",
+                  type: NextType.REDIRECT_EXTERNAL,
+                  link: "https://t.me/bysol_evacuation",
+                },
+              },
+              {
+                answer: {
+                  type: AnswerType.ARTICLE_PREVIEW,
+                  config: {
+                    text: "Хочу узнать опыт других людей",
+                  },
+                },
+                next: {
+                  type: NextType.REDIRECT_EXTERNAL,
+                  link: "https://telegra.ph/Prakticheskij-opyt-vyezda-iz-Belarusi-03-10",
                 },
               },
             ],
