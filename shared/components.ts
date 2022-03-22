@@ -9,7 +9,6 @@ export type AnswerMap = {
 };
 
 export const answerMap: AnswerMap = {
-  [AnswerType.HELP_SELECT]: SelectButton,
   [AnswerType.COMMON_SELECT]: SelectButton,
   [AnswerType.ARTICLE_PREVIEW]: PreviewSelect,
   [AnswerType.COUNTRY_SELECT]: CountrySelect,
