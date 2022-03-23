@@ -10,7 +10,7 @@ export const uaBranch: FlowConfig["questions"] = {
         answer: {
           type: AnswerType.ARTICLE_PREVIEW,
           config: {
-            text: "Приюты в Украина",
+            text: "Приюты в Украины",
           },
         },
         next: {
@@ -34,7 +34,19 @@ export const uaBranch: FlowConfig["questions"] = {
         answer: {
           type: AnswerType.ARTICLE_PREVIEW,
           config: {
-            text: "гуманитарная помощь/психологическая помощь",
+            text: "Тревожный чемоданчик для выезда за границу",
+          },
+        },
+        next: {
+          type: NextType.REDIRECT,
+          postId: "0e075f1ede6a4622a1f41b928aa09c0c",
+        },
+      },
+      {
+        answer: {
+          type: AnswerType.ARTICLE_PREVIEW,
+          config: {
+            text: "Гуманитарная помощь/психологическая помощь",
           },
         },
         next: {
@@ -54,18 +66,7 @@ export const uaBranch: FlowConfig["questions"] = {
           postId: "c338e692fc3e4f268111bacded9cb917",
         },
       },
-      {
-        answer: {
-          type: AnswerType.ARTICLE_PREVIEW,
-          config: {
-            text: "Тревожный чемоданчик для выезда за границу",
-          },
-        },
-        next: {
-          type: NextType.REDIRECT,
-          postId: "0e075f1ede6a4622a1f41b928aa09c0c",
-        },
-      },
+
     ],
   },
 };

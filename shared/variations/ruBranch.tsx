@@ -64,33 +64,21 @@ export const ruBranch: FlowConfig["questions"] = {
                   },
                 },
                 next: {
-                  type: NextType.REDIRECT_EXTERNAL,
-                  link: "https://vbanke.info/news/otkrytye-dlya-rossiyan-strany.html",
+                  type: NextType.REDIRECT,
+                  postId: "dc8593eee70b4d04953cdb9444f16a26",
                 },
               },
               {
                 answer: {
                   type: AnswerType.ARTICLE_PREVIEW,
                   config: {
-                    text: "Машиной в Армению",
+                    text: "Машина",
                   },
                 },
                 next: {
                   type: NextType.REDIRECT,
                   postId:
-                    "https://vbanke.info/news/otkrytye-dlya-rossiyan-strany.html",
-                },
-              },
-              {
-                answer: {
-                  type: AnswerType.ARTICLE_PREVIEW,
-                  config: {
-                    text: "Шенген в Калинграде и рабочая виза для Россиян",
-                  },
-                },
-                next: {
-                  type: NextType.REDIRECT_EXTERNAL,
-                  link: "https://instagram.com/shengen_viza39?utm_medium=copy_link",
+                    "9f5d46dc0ff04e1295ac58b02ee5971b",
                 },
               },
               {
@@ -101,8 +89,8 @@ export const ruBranch: FlowConfig["questions"] = {
                   },
                 },
                 next: {
-                  type: NextType.REDIRECT_EXTERNAL,
-                  link: "https://www.instagram.com/p/CaxWVEuolcG/?utm_medium=copy_link",
+                  type: NextType.REDIRECT,
+                  postId: "50e39f10e09b4d44be703eb5c8caab04",
                 },
               },
             ],

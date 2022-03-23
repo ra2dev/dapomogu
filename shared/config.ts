@@ -7,6 +7,7 @@ import { baseBranch } from "./variations/baseBranch";
 import { canHelpBranch } from "./variations/canHelpBranch";
 import { euBranch } from "./variations/euBranch";
 import { geBranch } from "./variations/geBranch";
+import { trBranch } from "./variations/trBranch";
 
 const config: FlowConfig = {
   questions: {
@@ -17,6 +18,7 @@ const config: FlowConfig = {
     ...byBranch,
     ...ruBranch,
     ...geBranch,
+    ...trBranch,
   },
 };
 

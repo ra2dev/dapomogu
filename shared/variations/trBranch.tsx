@@ -1,7 +1,7 @@
 import { AnswerType, FlowConfig, NextType } from "../questions";
 
 export const trBranch: FlowConfig["questions"] = {
-  ["ge-select"]: {
+  ["tr-select"]: {
     question: {
       text: "Турция",
     },

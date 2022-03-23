@@ -52,18 +52,6 @@ export const byBranch: FlowConfig["questions"] = {
                                 answer: {
                                   type: AnswerType.ARTICLE_PREVIEW,
                                   config: {
-                                    text: "Узнать про выезд в Литву и Польшу через Калининград (РФ)",
-                                  },
-                                },
-                                next: {
-                                  type: NextType.REDIRECT,
-                                  postId: "cfaef489ed1a406f8ae23a9520a982fd",
-                                },
-                              },
-                              {
-                                answer: {
-                                  type: AnswerType.ARTICLE_PREVIEW,
-                                  config: {
                                     text: "Общая информация о выезде",
                                   },
                                 },
@@ -94,6 +82,18 @@ export const byBranch: FlowConfig["questions"] = {
                                 next: {
                                   type: NextType.REDIRECT,
                                   postId: "65ec95a2b2494e45947fffce48bac04c",
+                                },
+                              },
+                              {
+                                answer: {
+                                  type: AnswerType.ARTICLE_PREVIEW,
+                                  config: {
+                                    text: "Узнать про выезд в Литву и Польшу через Калининград (РФ)",
+                                  },
+                                },
+                                next: {
+                                  type: NextType.REDIRECT,
+                                  postId: "cfaef489ed1a406f8ae23a9520a982fd",
                                 },
                               },
                             ],
@@ -222,7 +222,7 @@ export const byBranch: FlowConfig["questions"] = {
                         next: {
                           type: NextType.REDIRECT,
                           postId:
-                            "https://spice-lillipilli-c0d.notion.site/6c8c275df8e84631b4d85c758dc7e274",
+                            "6c8c275df8e84631b4d85c758dc7e274",
                         },
                       },
                       {
@@ -235,7 +235,7 @@ export const byBranch: FlowConfig["questions"] = {
                         next: {
                           type: NextType.REDIRECT,
                           postId:
-                            "https://spice-lillipilli-c0d.notion.site/dec5dad695f24bc3b30f8d4b336992e6",
+                            "dec5dad695f24bc3b30f8d4b336992e6",
                         },
                       },
                     ],

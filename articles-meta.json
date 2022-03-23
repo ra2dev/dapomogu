@@ -4084,7 +4084,7 @@
             "role": "reader",
             "value": {
               "id": "6bb0d865-5cf4-4d25-993f-b11d14456d5e",
-              "version": 9090,
+              "version": 9191,
               "type": "page",
               "properties": {
                 "title": [
@@ -4099,6 +4099,7 @@
                 "35aff503-1167-401e-863a-2a07432767db",
                 "dfb1350e-c88a-496a-9ecd-f38509a6d9b3",
                 "82bcd981-fed8-4a82-9aa0-e730b8c8b3cf",
+                "9dea133b-1809-428a-9d60-9ce10bcaac54",
                 "525689c6-5d99-4e75-836a-8fceb035fb96",
                 "ad9e3861-1252-4134-9ebd-826a6156b277",
                 "fdebdddc-e418-4449-bec9-d2686877abca",
@@ -4116,7 +4117,6 @@
                 "0ceba794-8bed-487e-a352-e804991b0b79",
                 "a52be42b-03be-4840-b866-1625807656d6",
                 "22c13d77-2809-46af-913f-51d2b714a01b",
-                "ce39f775-8306-4522-84c9-f8a4fe5e0f79",
                 "6336e452-d5fe-40bf-994a-26f14f814dfa",
                 "02ea3a7d-88b9-4149-816d-160b3d213306",
                 "bcb7c3e3-39e8-4cdc-9583-5c8e23628eb7",
@@ -4126,10 +4126,8 @@
                 "de8f4383-1116-4f6f-8465-087f3ff3c61e",
                 "cc06f7d4-99b5-4dd5-8d3d-50b82b05c2f5",
                 "01a75b25-9a9f-46bd-a670-dadc5babdb88",
-                "2c5b5761-8811-4bec-a2be-12962294b348",
-                "bade5e09-2c77-4863-b845-13b388502115",
-                "444d32de-3e74-4faa-b914-a66dffe9c265",
-                "e301757c-61c8-44c5-9598-a47ec26417e5",
+                "7c32a264-6390-4362-a874-d5ef96b73bd8",
+                "111de423-12b9-407b-9d09-371aeca6cc1a",
                 "8a365c1a-3681-49ab-bd8c-090a3de1bf50",
                 "6696ce88-9852-49c9-bdfa-05a73a7daa5c",
                 "d789f54a-df93-4abe-947f-200b17e1e8be",
@@ -4162,11 +4160,13 @@
                 "df29120b-3237-4c28-b751-a7ba4cbb3fb2",
                 "2b4aeec1-4cfc-4187-8a2b-34e213c62b0f",
                 "cce34126-67d1-4e17-a1dd-b9de760c57e1",
-                "fd405893-81cc-4a15-9203-88d1d528d97e",
-                "a95b0139-f444-4b1c-bf4d-2912df54f3b9",
-                "ce82f164-d835-4eb3-ad4c-e4ef436c1ee4",
                 "66e5a9b8-1a55-4b51-86ea-8a680683af0f",
+                "529f0ede-ef4f-4575-8717-45fb18e6e698",
                 "0d8dac96-ad7d-402c-849e-85a7cabbf0ea",
+                "c633a655-ed48-4161-acc1-0b4389b3cf13",
+                "ce82f164-d835-4eb3-ad4c-e4ef436c1ee4",
+                "a95b0139-f444-4b1c-bf4d-2912df54f3b9",
+                "fd405893-81cc-4a15-9203-88d1d528d97e",
                 "8b4f6765-9c2a-44c9-b1cb-e657efe47d49",
                 "4d1e957f-400c-48a7-93df-ee83960e9ec0",
                 "e3be243c-6ea1-4918-832d-ac606ecfdb9e",
@@ -4245,7 +4245,10 @@
                 "407006ca-df3f-4081-9e30-bac90de00cb8",
                 "e37b797a-2354-43f1-acb5-83f0800dcb0c",
                 "6e64cb80-d525-4742-ad06-2b47955dec13",
-                "49fec6c9-96d6-4e91-8558-2943a85d9ec7"
+                "3e84e8c9-b9e6-4947-a511-d7197594cabd",
+                "49fec6c9-96d6-4e91-8558-2943a85d9ec7",
+                "20cb60dd-4b05-474b-9870-a234165bb1dc",
+                "639940db-ddbc-4b03-90f1-6b0653c2baac"
               ],
               "format": {
                 "page_icon": "✈️",
@@ -4310,17 +4313,22 @@
                   "role": "editor",
                   "type": "user_permission",
                   "user_id": "fe40001a-8869-407d-bf8b-2b4382a93d75"
+                },
+                {
+                  "role": "editor",
+                  "type": "user_permission",
+                  "user_id": "7a456fdf-c437-4ed9-8e7b-f6b6bb774424"
                 }
               ],
               "created_time": 1645896240000,
-              "last_edited_time": 1647984480000,
+              "last_edited_time": 1648069800000,
               "parent_id": "5513007a-39ad-48cc-b418-1131f37e18d8",
               "parent_table": "space",
               "alive": true,
               "created_by_table": "notion_user",
               "created_by_id": "270e66cd-04bc-40f2-b54c-aaf220009e65",
               "last_edited_by_table": "notion_user",
-              "last_edited_by_id": "8a64f134-7f45-4c36-8c25-0d963ed93408",
+              "last_edited_by_id": "e95c1403-137a-4bca-9234-304268a8de99",
               "space_id": "5513007a-39ad-48cc-b418-1131f37e18d8"
             }
           },
@@ -22255,5 +22263,5 @@
       }
     }
   },
-  "version": 1647985351655
+  "version": 1648076306503
 }

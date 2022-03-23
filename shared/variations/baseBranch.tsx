@@ -117,7 +117,7 @@ export const baseBranch: FlowConfig["questions"] = {
         },
         next: {
           type: NextType.QUESTION,
-          questionId: "rus-select",
+          questionId: "tr-select",
         },
       },
     ],

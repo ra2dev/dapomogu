@@ -21,6 +21,54 @@ export const euBranch: FlowConfig["questions"] = {
                 answer: {
                   type: AnswerType.ARTICLE_PREVIEW,
                   config: {
+                    text: "Поиск Жилья Бесплатно",
+                  },
+                },
+                next: {
+                  type: NextType.REDIRECT,
+                  postId: "1fee6e7afd12464ebdd9e82decf44d90",
+                },
+              },
+              {
+                answer: {
+                  type: AnswerType.ARTICLE_PREVIEW,
+                  config: {
+                    text: "Поиск Жилья Платно",
+                  },
+                },
+                next: {
+                  type: NextType.REDIRECT,
+                  postId: "edab10075da24c1a931e80486d3d4840",
+                },
+              },
+              {
+                answer: {
+                  type: AnswerType.ARTICLE_PREVIEW,
+                  config: {
+                    text: "Легализация",
+                  },
+                },
+                next: {
+                  type: NextType.REDIRECT,
+                  postId: "b130d448a69d4542bcfa29912894d5ed",
+                },
+              },
+              {
+                answer: {
+                  type: AnswerType.ARTICLE_PREVIEW,
+                  config: {
+                    text: "Социальная жизнь",
+                  },
+                },
+                next: {
+                  type: NextType.REDIRECT,
+                  postId: "d78fc0bb30c24f1aac94075aab110c87",
+                },
+              },
+              {
+                answer: {
+                  type: AnswerType.ARTICLE_PREVIEW,
+                  config: {
                     text: "Поиск Работы",
                   },
                 },
@@ -41,54 +89,7 @@ export const euBranch: FlowConfig["questions"] = {
                   postId: "7e2c0f8c22694c72afe912753a1dab24",
                 },
               },
-              {
-                answer: {
-                  type: AnswerType.ARTICLE_PREVIEW,
-                  config: {
-                    text: "Социальная жизнь",
-                  },
-                },
-                next: {
-                  type: NextType.REDIRECT,
-                  postId: "d78fc0bb30c24f1aac94075aab110c87",
-                },
-              },
-              {
-                answer: {
-                  type: AnswerType.ARTICLE_PREVIEW,
-                  config: {
-                    text: "Легализация",
-                  },
-                },
-                next: {
-                  type: NextType.REDIRECT,
-                  postId: "b130d448a69d4542bcfa29912894d5ed",
-                },
-              },
-              {
-                answer: {
-                  type: AnswerType.ARTICLE_PREVIEW,
-                  config: {
-                    text: "Поиск Жилья Платно",
-                  },
-                },
-                next: {
-                  type: NextType.REDIRECT,
-                  postId: "edab10075da24c1a931e80486d3d4840",
-                },
-              },
-              {
-                answer: {
-                  type: AnswerType.ARTICLE_PREVIEW,
-                  config: {
-                    text: "Поиск Жилья Бесплатно",
-                  },
-                },
-                next: {
-                  type: NextType.REDIRECT,
-                  postId: "1fee6e7afd12464ebdd9e82decf44d90",
-                },
-              },
+
             ],
           },
         },
@@ -104,16 +105,17 @@ export const euBranch: FlowConfig["questions"] = {
           type: NextType.QUESTION,
           question: {
             answers: [
+
               {
                 answer: {
                   type: AnswerType.ARTICLE_PREVIEW,
                   config: {
-                    text: "Поиск работы/учёбы",
+                    text: "Поиск жилья бесплатно",
                   },
                 },
                 next: {
                   type: NextType.REDIRECT,
-                  postId: "94976749fdf34fe5bca5b71d815b9f29",
+                  postId: "1fee6e7afd12464ebdd9e82decf44d90",
                 },
               },
               {
@@ -132,12 +134,12 @@ export const euBranch: FlowConfig["questions"] = {
                 answer: {
                   type: AnswerType.ARTICLE_PREVIEW,
                   config: {
-                    text: "Поиск жилья бесплатно",
+                    text: "Поиск работы/учёбы",
                   },
                 },
                 next: {
                   type: NextType.REDIRECT,
-                  postId: "1fee6e7afd12464ebdd9e82decf44d90",
+                  postId: "94976749fdf34fe5bca5b71d815b9f29",
                 },
               },
             ],
@@ -327,7 +329,7 @@ export const euBranch: FlowConfig["questions"] = {
                 answer: {
                   type: AnswerType.ARTICLE_PREVIEW,
                   config: {
-                    text: "Ковид Меры",
+                    text: "Социальная жизнь/легализация",
                   },
                 },
                 next: {
