@@ -10,7 +10,7 @@ export const uaBranch: FlowConfig["questions"] = {
         answer: {
           type: AnswerType.ARTICLE_PREVIEW,
           config: {
-            text: "Приюты в Украины",
+            text: "Приюты в Украине",
           },
         },
         next: {
