@@ -8,9 +8,10 @@ export const euBranch: FlowConfig["questions"] = {
     answers: [
       {
         answer: {
-          type: AnswerType.COMMON_SELECT,
+          type: AnswerType.COUNTRY_SELECT,
           config: {
             text: "Польша",
+            flag: "poland",
           },
         },
         next: {
@@ -96,9 +97,10 @@ export const euBranch: FlowConfig["questions"] = {
       },
       {
         answer: {
-          type: AnswerType.COMMON_SELECT,
+          type: AnswerType.COUNTRY_SELECT,
           config: {
             text: "Германия",
+            flag: "german",
           },
         },
         next: {
@@ -148,9 +150,10 @@ export const euBranch: FlowConfig["questions"] = {
       },
       {
         answer: {
-          type: AnswerType.COMMON_SELECT,
+          type: AnswerType.COUNTRY_SELECT,
           config: {
             text: "Швеция",
+            flag: "sweden",
           },
         },
         next: {
@@ -187,9 +190,10 @@ export const euBranch: FlowConfig["questions"] = {
       },
       {
         answer: {
-          type: AnswerType.COMMON_SELECT,
+          type: AnswerType.COUNTRY_SELECT,
           config: {
             text: "Венгрия",
+            flag: "hungary"
           },
         },
         next: {
@@ -226,9 +230,10 @@ export const euBranch: FlowConfig["questions"] = {
       },
       {
         answer: {
-          type: AnswerType.COMMON_SELECT,
+          type: AnswerType.COUNTRY_SELECT,
           config: {
             text: "Нидерланды",
+            flag: "nerthelends"
           },
         },
         next: {
@@ -277,9 +282,10 @@ export const euBranch: FlowConfig["questions"] = {
       },
       {
         answer: {
-          type: AnswerType.COMMON_SELECT,
+          type: AnswerType.COUNTRY_SELECT,
           config: {
             text: "Литва",
+            flag: "lithuania"
           },
         },
         next: {
@@ -316,9 +322,10 @@ export const euBranch: FlowConfig["questions"] = {
       },
       {
         answer: {
-          type: AnswerType.COMMON_SELECT,
+          type: AnswerType.COUNTRY_SELECT,
           config: {
             text: "Латвия",
+            flag: "latvia"
           },
         },
         next: {
