@@ -5,7 +5,6 @@ import "rc-dropdown/assets/index.css";
 import "katex/dist/katex.min.css";
 import "@algolia/autocomplete-theme-classic";
 import { createTheme, NextUIProvider } from "@nextui-org/react";
-import { useEffect } from "react";
 
 const theme = createTheme({
   type: "light",
@@ -18,15 +17,6 @@ const theme = createTheme({
 });
 
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    if (window.location.href.includes("invite=INVITELINKSAMPLE")) {
-      window.location.href = "/";
-      localStorage.setItem("hlc", "true");
-    }
-    if (!localStorage.getItem("hlc")) {
-      document.body.innerHTML = "";
-    }
-  }, []);
   return (
     <NextUIProvider theme={theme}>
       <Component {...pageProps} />
