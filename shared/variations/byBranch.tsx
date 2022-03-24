@@ -17,6 +17,7 @@ export const byBranch: FlowConfig["questions"] = {
         next: {
           type: NextType.QUESTION,
           question: {
+            slug: "by-can-leave",
             question: {
               text: "Вы выездной/ая?",
             },
@@ -32,6 +33,7 @@ export const byBranch: FlowConfig["questions"] = {
                 next: {
                   type: NextType.QUESTION,
                   question: {
+                    slug: "by-can-leave-confirm",
                     question: {
                       text: "Eсть виза стран Шенгена?",
                     },
@@ -47,6 +49,7 @@ export const byBranch: FlowConfig["questions"] = {
                         next: {
                           type: NextType.QUESTION,
                           question: {
+                            slug: "by-has-viza-can-leave",
                             answers: [
                               {
                                 answer: {
@@ -111,6 +114,7 @@ export const byBranch: FlowConfig["questions"] = {
                         next: {
                           type: NextType.QUESTION,
                           question: {
+                            slug: 'by-can-not-leave',
                             answers: [
                               {
                                 answer: {
@@ -183,6 +187,7 @@ export const byBranch: FlowConfig["questions"] = {
         next: {
           type: NextType.QUESTION,
           question: {
+            slug: 'by-not-rezident-by',
             question: {
               text: "Есть ли виза стран шенгена?",
             },
@@ -211,6 +216,7 @@ export const byBranch: FlowConfig["questions"] = {
                 next: {
                   type: NextType.QUESTION,
                   question: {
+                    slug: 'by-no-viza-cannot-leave-confirm',
                     answers: [
                       {
                         answer: {
@@ -221,8 +227,7 @@ export const byBranch: FlowConfig["questions"] = {
                         },
                         next: {
                           type: NextType.REDIRECT,
-                          postId:
-                            "6c8c275df8e84631b4d85c758dc7e274",
+                          postId: "6c8c275df8e84631b4d85c758dc7e274",
                         },
                       },
                       {
@@ -234,8 +239,7 @@ export const byBranch: FlowConfig["questions"] = {
                         },
                         next: {
                           type: NextType.REDIRECT,
-                          postId:
-                            "dec5dad695f24bc3b30f8d4b336992e6",
+                          postId: "dec5dad695f24bc3b30f8d4b336992e6",
                         },
                       },
                     ],

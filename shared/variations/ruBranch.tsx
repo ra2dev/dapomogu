@@ -14,6 +14,7 @@ export const ruBranch: FlowConfig["questions"] = {
         next: {
           type: NextType.QUESTION,
           question: {
+            slug: "ru-save-yourself",
             answers: [
               {
                 answer: {
@@ -54,6 +55,7 @@ export const ruBranch: FlowConfig["questions"] = {
         next: {
           type: NextType.QUESTION,
           question: {
+            slug: "ru-leave-if-war",
             answers: [
               {
                 answer: {
@@ -77,8 +79,7 @@ export const ruBranch: FlowConfig["questions"] = {
                 },
                 next: {
                   type: NextType.REDIRECT,
-                  postId:
-                    "9f5d46dc0ff04e1295ac58b02ee5971b",
+                  postId: "9f5d46dc0ff04e1295ac58b02ee5971b",
                 },
               },
               {

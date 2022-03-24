@@ -17,6 +17,7 @@ export const euBranch: FlowConfig["questions"] = {
         next: {
           type: NextType.QUESTION,
           question: {
+            slug: "eu-poland-need-help",
             answers: [
               {
                 answer: {
@@ -90,7 +91,6 @@ export const euBranch: FlowConfig["questions"] = {
                   postId: "7e2c0f8c22694c72afe912753a1dab24",
                 },
               },
-
             ],
           },
         },
@@ -106,8 +106,8 @@ export const euBranch: FlowConfig["questions"] = {
         next: {
           type: NextType.QUESTION,
           question: {
+            slug: "eu-german-need-help",
             answers: [
-
               {
                 answer: {
                   type: AnswerType.ARTICLE_PREVIEW,
@@ -159,6 +159,7 @@ export const euBranch: FlowConfig["questions"] = {
         next: {
           type: NextType.QUESTION,
           question: {
+            slug: "eu-sweden-need-help",
             answers: [
               {
                 answer: {
@@ -193,12 +194,13 @@ export const euBranch: FlowConfig["questions"] = {
           type: AnswerType.COUNTRY_SELECT,
           config: {
             text: "Венгрия",
-            flag: "hungary"
+            flag: "hungary",
           },
         },
         next: {
           type: NextType.QUESTION,
           question: {
+            slug: "eu-hungary-need-help",
             answers: [
               {
                 answer: {
@@ -233,12 +235,13 @@ export const euBranch: FlowConfig["questions"] = {
           type: AnswerType.COUNTRY_SELECT,
           config: {
             text: "Нидерланды",
-            flag: "nerthelends"
+            flag: "nerthelends",
           },
         },
         next: {
           type: NextType.QUESTION,
           question: {
+            slug: "eu-nerthelends-need-help",
             answers: [
               {
                 answer: {
@@ -285,12 +288,13 @@ export const euBranch: FlowConfig["questions"] = {
           type: AnswerType.COUNTRY_SELECT,
           config: {
             text: "Литва",
-            flag: "lithuania"
+            flag: "lithuania",
           },
         },
         next: {
           type: NextType.QUESTION,
           question: {
+            slug: "eu-lithuania-need-help",
             answers: [
               {
                 answer: {
@@ -325,12 +329,13 @@ export const euBranch: FlowConfig["questions"] = {
           type: AnswerType.COUNTRY_SELECT,
           config: {
             text: "Латвия",
-            flag: "latvia"
+            flag: "latvia",
           },
         },
         next: {
           type: NextType.QUESTION,
           question: {
+            slug: "eu-latvia-need-help",
             answers: [
               {
                 answer: {

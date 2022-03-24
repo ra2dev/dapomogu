@@ -25,13 +25,25 @@ const config: FlowConfig = {
 const normalizeConfig = (conf: FlowConfig): FlowConfig => {
   const result = cloneDeep(conf);
   let items = Object.keys(result.questions).map((k) => result.questions[k]);
+  const idList = Object.keys(result.questions);
+
   let item = items.pop();
 
   while (item) {
     item.answers.map((e) => {
       if (e?.next?.type === NextType.QUESTION && e?.next?.question) {
         const question = e?.next?.question;
-        const key = JSON.stringify(question);
+        const key = question.slug;
+
+        if (process.env.NODE_ENV === "development") {
+          if (!key) {
+            throw new Error(`Missing key ${key}`);
+          } else if (idList.includes(key)) {
+            throw new Error(`Key already exists, ${key}`);
+          }
+        }
+
+        idList.push(key);
         e.next.questionId = key;
         items.push(question);
         result.questions[key] = question;
@@ -43,5 +55,3 @@ const normalizeConfig = (conf: FlowConfig): FlowConfig => {
 };
 
 export const flowConfig = normalizeConfig(config);
-
-console.log(flowConfig.questions.root);

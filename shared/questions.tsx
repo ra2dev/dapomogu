@@ -24,7 +24,7 @@ export type NextConfig =
   | {
       type: NextType.QUESTION;
       questionId?: string;
-      question?: QuestionItemConfig;
+      question?: QuestionItemConfig & { slug: string };
     }
   | {
       type: NextType.REDIRECT_EXTERNAL;
@@ -47,7 +47,6 @@ export type QuestionItemConfig = {
   };
   answers: AnswerConfig[];
 };
-
 
 export type FlowConfig = {
   questions: {

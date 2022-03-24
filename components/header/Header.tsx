@@ -7,6 +7,7 @@ import { SearchBox } from "../search/SearchBox";
 import { Tag } from "../blog/TagsRender";
 import { Menu } from "../mobile/Menu";
 import { HeaderDropdown } from "./HeaderDropdown";
+import { Logo } from "../Logo";
 
 function Header({ showBackBtn }: { showBackBtn?: boolean }) {
   const [top, setTop] = useState(true);
@@ -36,15 +37,20 @@ function Header({ showBackBtn }: { showBackBtn?: boolean }) {
       >
         <div className="max-w-6xl mx-auto px-5 sm:px-6">
           <div className="flex items-center justify-between h-16 md:h-20">
+            <div className="hidden md:block">
+              <Link href="/">
+                <Logo className="h-7" />
+              </Link>
+            </div>
             <div className="flex-shrink-0 mr-4 cursor-pointer">
               <div>
                 <div className="flex hidden md:flex">
-                  <Link href="/?steps=need-help-select-country">
+                  <Link href="/flow/need-help-select-country">
                     <Text size={16} className="text-[10px] md:text-[16px]">
                       Мне нужна помошь
                     </Text>
                   </Link>
-                  <Link href="/?steps=can-help">
+                  <Link href="/flow/can-help">
                     <Text
                       size={16}
                       className="ml-10 text-[10px] md:text-[16px]"
@@ -55,9 +61,7 @@ function Header({ showBackBtn }: { showBackBtn?: boolean }) {
                 </div>
               </div>
             </div>
-
-            {/* Site navigation */}
-            <nav className="flex flex-grow">
+            <nav className="flex">
               <div className="ml-auto flex items-center">
                 <div className="mr-2 underline">
                   <HeaderDropdown />

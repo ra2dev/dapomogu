@@ -30,6 +30,7 @@ export const canHelpBranch: Record<string, QuestionItemConfig> = {
         next: {
           type: NextType.QUESTION,
           question: {
+            slug: 'uk-can-help',
             answers: [
               {
                 answer: {
@@ -109,6 +110,7 @@ export const canHelpBranch: Record<string, QuestionItemConfig> = {
         next: {
           type: NextType.QUESTION,
           question: {
+            slug: 'eu-can-help',
             answers: [
               {
                 answer: {
