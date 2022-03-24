@@ -22,6 +22,7 @@ export const FlowEngine = ({ config = flowConfig, setNext, next }) => {
   const [step, setStep] = useState<string[] | undefined>([]);
 
   const lastStep: string = step[step.length - 1] ?? "root";
+  const isRootStep = lastStep === "root";
   const { question, answers } = config.questions[lastStep];
   const QuestionComponent = questionMap[question?.type] ?? CommonQuestion;
 
@@ -96,6 +97,13 @@ export const FlowEngine = ({ config = flowConfig, setNext, next }) => {
             />
           );
         })}
+        {isRootStep && (
+          <p className="text-md text-gray-600 mb-8 leading-6 block md:hidden">
+            Простой опросник приведёт вас к ответу. Мы обновляем информацию, но
+            проверяйте её актуальность. Включите VPN и всегда имейте доступ к
+            сайту!
+          </p>
+        )}
       </section>
     </div>
   );

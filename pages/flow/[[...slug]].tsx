@@ -2,7 +2,6 @@ import Head from "next/head";
 import React, { useState } from "react";
 import Header from "../../components/header/Header";
 import { FlowEngine } from "../../components/flow/FlowEngine/FlowEngine";
-import { BlogList } from "../../components/blog-list/BlogList";
 import { BackgroundGradient } from "../../components/BackgroundGradient";
 
 export default function Main() {
@@ -16,7 +15,6 @@ export default function Main() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Header />
-
         <main className="flex-grow">
           <FlowEngine setNext={setNext} next={next} />
         </main>
