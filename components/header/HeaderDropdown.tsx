@@ -15,15 +15,15 @@ export const HeaderDropdown = () => {
         </div>
       ),
     },
-    // {
-    //   link: "another",
-    //   text: (
-    //     <div className="flex items-center">
-    //       <Image src="/support/telegram.svg" height="24px" width="24px" />
-    //       <div className="ml-2">telegram</div>
-    //     </div>
-    //   ),
-    // },
+    {
+      link: "https://t.me/+DIgB2SJs8L8yNDM6",
+      text: (
+        <div className="flex items-center">
+          <Image src="/support/telegram.svg" height="24px" width="24px" />
+          <div className="ml-2">dapomogu чат</div>
+        </div>
+      ),
+    },
   ];
   return (
     <Menu as="div" className="relative inline-block text-left">
