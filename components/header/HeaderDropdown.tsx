@@ -7,7 +7,7 @@ import Image from "next/image";
 export const HeaderDropdown = () => {
   const items = [
     {
-      link: "https://www.instagram.com/ksenia/",
+      link: "https://instagram.com/by.theway_?utm_medium=copy_link",
       text: (
         <div className="flex items-center">
           <Image src="/support/instagram.svg" height="24px" width="24px" />
@@ -15,6 +15,15 @@ export const HeaderDropdown = () => {
         </div>
       ),
     },
+    // {
+    //   link: "another",
+    //   text: (
+    //     <div className="flex items-center">
+    //       <Image src="/support/telegram.svg" height="24px" width="24px" />
+    //       <div className="ml-2">telegram</div>
+    //     </div>
+    //   ),
+    // },
   ];
   return (
     <Menu as="div" className="relative inline-block text-left">
@@ -47,14 +56,7 @@ export const HeaderDropdown = () => {
                       "block px-4 py-2 text-sm"
                     )}
                   >
-                    <div className="flex items-center">
-                      <Image
-                        src="/support/instagram.svg"
-                        height="24px"
-                        width="24px"
-                      />
-                      <div className="ml-2">@ksenia</div>
-                    </div>
+                    {e.text}
                   </a>
                 )}
               </Menu.Item>
