@@ -11,7 +11,7 @@ export const HeaderDropdown = () => {
       text: (
         <div className="flex items-center">
           <Image src="/support/instagram.svg" height="24px" width="24px" />
-          <div className="ml-2">@ksenia</div>
+          <div className="ml-2">instagram</div>
         </div>
       ),
     },
