@@ -1,19 +1,14 @@
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
-import { Button, Link, Text } from "@nextui-org/react";
-import { ArrowLeftIcon, SearchIcon } from "@heroicons/react/outline";
-import { useRouter } from "next/router";
+import { Link, Text } from "@nextui-org/react";
+import { SearchIcon } from "@heroicons/react/outline";
 import { SearchBox } from "../search/SearchBox";
-import { Tag } from "../blog/TagsRender";
-import { Menu } from "../mobile/Menu";
 import { HeaderDropdown } from "./HeaderDropdown";
 import { Logo } from "../Logo";
 
-function Header({ showBackBtn }: { showBackBtn?: boolean }) {
+function Header() {
   const [top, setTop] = useState(true);
 
   const [open, setOpen] = useState(false);
-  const router = useRouter();
   // detect whether user has scrolled the page down by 10px
   useEffect(() => {
     const scrollHandler = () => {
@@ -37,9 +32,9 @@ function Header({ showBackBtn }: { showBackBtn?: boolean }) {
       >
         <div className="max-w-6xl mx-auto px-5 sm:px-6">
           <div className="flex items-center justify-between h-16 md:h-20">
-            <div className="hidden md:block">
+            <div className="md:block">
               <Link href="/">
-                <Logo className="h-7" />
+                <Logo className="h-4 md:h-7" />
               </Link>
             </div>
             <div className="flex-shrink-0 mr-4 cursor-pointer">

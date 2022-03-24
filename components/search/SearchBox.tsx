@@ -69,6 +69,7 @@ export function SearchBox({ open, setOpen }: any) {
                 onChange={(event) => {
                   setQuery(event.target?.value);
                 }}
+                style={{ fontSize: "16px" }}
                 className="w-full border-0 bg-transparent b-0 focus:ring-0 text-sm text-gray-800 placeholder-gray-400 h-12"
                 placeholder="Search..."
               />
