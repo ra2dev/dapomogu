@@ -1,5 +1,373 @@
 {
   "articles": {
+    "935f96be65f54d188892a4eaac60c2a5": {
+      "recordMap": {
+        "block": {
+          "935f96be-65f5-4d18-8892-a4eaac60c2a5": {
+            "role": "reader",
+            "value": {
+              "id": "935f96be-65f5-4d18-8892-a4eaac60c2a5",
+              "version": 45,
+              "type": "page",
+              "properties": {
+                "title": [
+                  [
+                    "про нас dapomogu.com"
+                  ]
+                ]
+              },
+              "content": [
+                "1b684c07-40c3-4fc9-8afa-944280958eb9",
+                "21e5f939-039f-4c99-8c4d-fc6fd21ee96f",
+                "0ff4e934-c09e-4f28-9858-e1f38207ac8c",
+                "a6ff51c4-647e-4ae4-ba7f-3560c0962bf1",
+                "fae2b8df-90a3-4135-96c3-e8ea951f4a52",
+                "7c8c43a3-8fc9-4d3d-808b-314fb60f0abd",
+                "c88d53a5-d45a-4d69-8a71-214420112d9c",
+                "0cfb5c97-2606-4130-9096-ae2c33086b9b",
+                "5fc61d0e-8503-498d-8dd3-bda498aeea49",
+                "89ff4292-382e-4d9c-9c59-174640fb07e4"
+              ],
+              "permissions": [
+                {
+                  "role": "reader",
+                  "type": "public_permission",
+                  "added_timestamp": 1648208072208
+                }
+              ],
+              "created_time": 1648207740000,
+              "last_edited_time": 1648208160000,
+              "parent_id": "c09569ef-87f7-4f9c-aa09-937d07f8703e",
+              "parent_table": "collection",
+              "alive": true,
+              "created_by_table": "notion_user",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "last_edited_by_table": "notion_user",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
+            }
+          },
+          "1b684c07-40c3-4fc9-8afa-944280958eb9": {
+            "role": "reader",
+            "value": {
+              "id": "1b684c07-40c3-4fc9-8afa-944280958eb9",
+              "version": 264,
+              "type": "text",
+              "properties": {
+                "title": [
+                  [
+                    "Мы команда разных национальностей и из разных стран, среди нас есть украинцы, русские и беларусы. Все мы объединены одной мыслью о помощи."
+                  ]
+                ]
+              },
+              "created_time": 1648207740000,
+              "last_edited_time": 1648208040000,
+              "parent_id": "935f96be-65f5-4d18-8892-a4eaac60c2a5",
+              "parent_table": "block",
+              "alive": true,
+              "created_by_table": "notion_user",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "last_edited_by_table": "notion_user",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
+            }
+          },
+          "21e5f939-039f-4c99-8c4d-fc6fd21ee96f": {
+            "role": "reader",
+            "value": {
+              "id": "21e5f939-039f-4c99-8c4d-fc6fd21ee96f",
+              "version": 4,
+              "type": "text",
+              "properties": {
+                "title": [
+                  [
+                    "\nСпасибо всем, кто помогает с сайтом"
+                  ]
+                ]
+              },
+              "created_time": 1648208040000,
+              "last_edited_time": 1648208040000,
+              "parent_id": "935f96be-65f5-4d18-8892-a4eaac60c2a5",
+              "parent_table": "block",
+              "alive": true,
+              "created_by_table": "notion_user",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "last_edited_by_table": "notion_user",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
+            }
+          },
+          "0ff4e934-c09e-4f28-9858-e1f38207ac8c": {
+            "role": "reader",
+            "value": {
+              "id": "0ff4e934-c09e-4f28-9858-e1f38207ac8c",
+              "version": 25,
+              "type": "text",
+              "properties": {
+                "title": [
+                  [
+                    "Ксения - автор и идея"
+                  ]
+                ]
+              },
+              "created_time": 1648207800000,
+              "last_edited_time": 1648207800000,
+              "parent_id": "935f96be-65f5-4d18-8892-a4eaac60c2a5",
+              "parent_table": "block",
+              "alive": true,
+              "created_by_table": "notion_user",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "last_edited_by_table": "notion_user",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
+            }
+          },
+          "a6ff51c4-647e-4ae4-ba7f-3560c0962bf1": {
+            "role": "reader",
+            "value": {
+              "id": "a6ff51c4-647e-4ae4-ba7f-3560c0962bf1",
+              "version": 61,
+              "type": "text",
+              "properties": {
+                "title": [
+                  [
+                    "Роман - код "
+                  ]
+                ]
+              },
+              "created_time": 1648207800000,
+              "last_edited_time": 1648208100000,
+              "parent_id": "935f96be-65f5-4d18-8892-a4eaac60c2a5",
+              "parent_table": "block",
+              "alive": true,
+              "created_by_table": "notion_user",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "last_edited_by_table": "notion_user",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
+            }
+          },
+          "fae2b8df-90a3-4135-96c3-e8ea951f4a52": {
+            "role": "reader",
+            "value": {
+              "id": "fae2b8df-90a3-4135-96c3-e8ea951f4a52",
+              "version": 46,
+              "type": "text",
+              "properties": {
+                "title": [
+                  [
+                    "Екатарина - логотип"
+                  ]
+                ]
+              },
+              "created_time": 1648207800000,
+              "last_edited_time": 1648208160000,
+              "parent_id": "935f96be-65f5-4d18-8892-a4eaac60c2a5",
+              "parent_table": "block",
+              "alive": true,
+              "created_by_table": "notion_user",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "last_edited_by_table": "notion_user",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
+            }
+          },
+          "7c8c43a3-8fc9-4d3d-808b-314fb60f0abd": {
+            "role": "reader",
+            "value": {
+              "id": "7c8c43a3-8fc9-4d3d-808b-314fb60f0abd",
+              "version": 40,
+              "type": "text",
+              "properties": {
+                "title": [
+                  [
+                    "Наталия - дизайн"
+                  ]
+                ]
+              },
+              "created_time": 1648207800000,
+              "last_edited_time": 1648208160000,
+              "parent_id": "935f96be-65f5-4d18-8892-a4eaac60c2a5",
+              "parent_table": "block",
+              "alive": true,
+              "created_by_table": "notion_user",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "last_edited_by_table": "notion_user",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
+            }
+          },
+          "c88d53a5-d45a-4d69-8a71-214420112d9c": {
+            "role": "reader",
+            "value": {
+              "id": "c88d53a5-d45a-4d69-8a71-214420112d9c",
+              "version": 37,
+              "type": "text",
+              "properties": {
+                "title": [
+                  [
+                    "Наталия - дизайн"
+                  ]
+                ]
+              },
+              "created_time": 1648207860000,
+              "last_edited_time": 1648208160000,
+              "parent_id": "935f96be-65f5-4d18-8892-a4eaac60c2a5",
+              "parent_table": "block",
+              "alive": true,
+              "created_by_table": "notion_user",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "last_edited_by_table": "notion_user",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
+            }
+          },
+          "0cfb5c97-2606-4130-9096-ae2c33086b9b": {
+            "role": "reader",
+            "value": {
+              "id": "0cfb5c97-2606-4130-9096-ae2c33086b9b",
+              "version": 21,
+              "type": "text",
+              "properties": {
+                "title": [
+                  [
+                    "Ирина - админ"
+                  ]
+                ]
+              },
+              "created_time": 1648207860000,
+              "last_edited_time": 1648208160000,
+              "parent_id": "935f96be-65f5-4d18-8892-a4eaac60c2a5",
+              "parent_table": "block",
+              "alive": true,
+              "created_by_table": "notion_user",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "last_edited_by_table": "notion_user",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
+            }
+          },
+          "5fc61d0e-8503-498d-8dd3-bda498aeea49": {
+            "role": "reader",
+            "value": {
+              "id": "5fc61d0e-8503-498d-8dd3-bda498aeea49",
+              "version": 18,
+              "type": "text",
+              "properties": {
+                "title": [
+                  [
+                    "Маша - админ"
+                  ]
+                ]
+              },
+              "created_time": 1648207860000,
+              "last_edited_time": 1648207860000,
+              "parent_id": "935f96be-65f5-4d18-8892-a4eaac60c2a5",
+              "parent_table": "block",
+              "alive": true,
+              "created_by_table": "notion_user",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "last_edited_by_table": "notion_user",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
+            }
+          },
+          "89ff4292-382e-4d9c-9c59-174640fb07e4": {
+            "role": "reader",
+            "value": {
+              "id": "89ff4292-382e-4d9c-9c59-174640fb07e4",
+              "version": 27,
+              "type": "text",
+              "properties": {
+                "title": [
+                  [
+                    "Алёна - админ"
+                  ]
+                ]
+              },
+              "created_time": 1648207860000,
+              "last_edited_time": 1648207860000,
+              "parent_id": "935f96be-65f5-4d18-8892-a4eaac60c2a5",
+              "parent_table": "block",
+              "alive": true,
+              "created_by_table": "notion_user",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "last_edited_by_table": "notion_user",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
+            }
+          }
+        },
+        "collection": {},
+        "collection_view": {},
+        "space": {},
+        "notion_user": {},
+        "collection_query": {},
+        "signed_urls": {}
+      },
+      "page": {
+        "object": "page",
+        "id": "935f96be-65f5-4d18-8892-a4eaac60c2a5",
+        "created_time": "2022-03-25T11:29:00.000Z",
+        "last_edited_time": "2022-03-25T11:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "694d7d93-5a2c-4966-9431-32ec91a870d8"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "694d7d93-5a2c-4966-9431-32ec91a870d8"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "database_id",
+          "database_id": "5f4359e3-dc97-4887-98c0-55cac1069cde"
+        },
+        "archived": false,
+        "properties": {
+          "Property": {
+            "id": "ET~t",
+            "type": "rich_text",
+            "rich_text": []
+          },
+          "ShortDescription": {
+            "id": "q%3E%40i",
+            "type": "rich_text",
+            "rich_text": []
+          },
+          "Tags": {
+            "id": "z%5DKJ",
+            "type": "multi_select",
+            "multi_select": []
+          },
+          "Name": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "про нас dapomogu.com",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "про нас dapomogu.com",
+                "href": null
+              }
+            ]
+          }
+        },
+        "url": "https://www.notion.so/dapomogu-com-935f96be65f54d188892a4eaac60c2a5"
+      }
+    },
     "c0cdb7d705ee40a69098dfe5f30519e2": {
       "recordMap": {
         "block": {
@@ -4084,7 +4452,7 @@
             "role": "reader",
             "value": {
               "id": "6bb0d865-5cf4-4d25-993f-b11d14456d5e",
-              "version": 9191,
+              "version": 9227,
               "type": "page",
               "properties": {
                 "title": [
@@ -4134,9 +4502,11 @@
                 "b997c502-6874-4121-a96d-0223751ea319",
                 "7e4f7742-8148-4db6-a767-02eeca516bf1",
                 "51af4996-ac33-477c-bfae-50848b1d8618",
+                "b5108634-44b6-49eb-a225-c3a9d1f86b44",
                 "e314c68e-44d0-42f3-8ca0-ae096c102dc9",
                 "48fef3e9-d0e8-4832-b5a0-96ca1a0d2202",
                 "4661c54a-91f1-441c-aff8-7dae779a3d6d",
+                "40185879-3626-47dd-9adc-13b30065c622",
                 "440eb26f-bf96-416e-81c6-f283958a2488",
                 "00e0649a-6cca-433b-abf6-286bf904713f",
                 "72faa438-c52f-4b87-ada6-0e401df0938f",
@@ -4177,7 +4547,8 @@
                 "4cb607ec-9989-4df7-9fe3-ffeb4fea3708",
                 "05bbf071-f05b-4e11-9375-63751c2a108b",
                 "1c9d80df-2e81-4b64-988e-a2e54bb884cd",
-                "c9ddc916-28cd-485e-8c43-98882ae246e1",
+                "bf247176-3c12-4964-805f-b8a879028173",
+                "2aa1fdef-e1f9-4cad-afd3-0df2d284c0d4",
                 "f9bb8f94-7b85-4b8e-a9dd-4b3bbb9e4bf4",
                 "ae1926a6-8787-4d07-9161-787455fbc10e",
                 "549e3223-b57c-4ebb-b321-8eeee1505528",
@@ -4260,11 +4631,6 @@
                   "type": "space_permission"
                 },
                 {
-                  "role": "reader",
-                  "type": "public_permission",
-                  "added_timestamp": 1646678633078
-                },
-                {
                   "role": "editor",
                   "type": "user_permission",
                   "user_id": "267617ad-1266-43c9-829c-b758c0245982"
@@ -4318,17 +4684,37 @@
                   "role": "editor",
                   "type": "user_permission",
                   "user_id": "7a456fdf-c437-4ed9-8e7b-f6b6bb774424"
+                },
+                {
+                  "role": "editor",
+                  "type": "user_permission",
+                  "user_id": "7b177e05-c7ff-4043-943f-ee3d2b530855"
+                },
+                {
+                  "role": "reader",
+                  "type": "public_permission",
+                  "added_timestamp": 1648106798196
+                },
+                {
+                  "role": "editor",
+                  "type": "user_permission",
+                  "user_id": "3e5792ca-4d00-4705-8545-710c5779a03c"
+                },
+                {
+                  "role": "editor",
+                  "type": "user_permission",
+                  "user_id": "cbb519c1-3ddd-4805-93d3-2b541a528bfd"
                 }
               ],
               "created_time": 1645896240000,
-              "last_edited_time": 1648069800000,
+              "last_edited_time": 1648206600000,
               "parent_id": "5513007a-39ad-48cc-b418-1131f37e18d8",
               "parent_table": "space",
               "alive": true,
               "created_by_table": "notion_user",
               "created_by_id": "270e66cd-04bc-40f2-b54c-aaf220009e65",
               "last_edited_by_table": "notion_user",
-              "last_edited_by_id": "e95c1403-137a-4bca-9234-304268a8de99",
+              "last_edited_by_id": "51aa2f19-29e3-4b31-9b1f-4a94f3d8940c",
               "space_id": "5513007a-39ad-48cc-b418-1131f37e18d8"
             }
           },
@@ -14376,7 +14762,7 @@
             "role": "reader",
             "value": {
               "id": "6c8c275d-f8e8-4631-b4d8-5c758dc7e274",
-              "version": 127,
+              "version": 155,
               "type": "page",
               "properties": {
                 "q>@i": [
@@ -14391,21 +14777,26 @@
                 ],
                 "z]KJ": [
                   [
-                    "виза,Беларусь,виза в России,шенген,ЕС,Латвия,Испания,консульство,визовый центр"
+                    "виза,Беларусь,виза в России,шенген,ЕС,Латвия,Испания,консульство,визовый центр,виза в Польшу,виза в Германию"
                   ]
                 ],
                 "title": [
                   [
-                    "Визовые центры Беларуси и России"
+                    "Визовые центры Беларуси и России\n\n"
                   ]
                 ]
               },
               "content": [
-                "9afc34f2-aaa5-483d-894f-7c3b79799098",
-                "452508f4-622a-4ee8-b9b3-3eb05af6c708",
-                "48ce1a0c-d79e-42a0-bb2c-202c25a1f10c",
-                "c7ab7b6d-0872-40cb-9811-a20d57167632",
-                "f2a7563d-7083-4f20-9a38-31c30749c9e1"
+                "771bb8f8-ee29-450d-a069-c18b4bc4991c",
+                "e6d0d736-d3f1-4a7e-b2af-10f9fde044c9",
+                "aa0b4256-dede-4b22-9155-865ee0e5909d",
+                "67e27f92-496d-48f1-aab9-7b49628a29e7",
+                "50da49d9-3392-47a5-af3c-8e45cdddd6f1",
+                "08b96a64-d989-44cf-bf4a-0876faccc609",
+                "04254eac-790c-48a7-b565-8065712d805f",
+                "c837e503-db51-45d6-af73-fdcad72059ae",
+                "f3744b0e-c9ff-479d-a2d0-b29e0cc8fd48",
+                "8df159ab-e554-406c-a378-75cc2596582c"
               ],
               "permissions": [
                 {
@@ -14415,7 +14806,7 @@
                 }
               ],
               "created_time": 1647367200000,
-              "last_edited_time": 1647460740000,
+              "last_edited_time": 1648207560000,
               "parent_id": "c09569ef-87f7-4f9c-aa09-937d07f8703e",
               "parent_table": "collection",
               "alive": true,
@@ -14426,121 +14817,272 @@
               "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
             }
           },
-          "9afc34f2-aaa5-483d-894f-7c3b79799098": {
+          "771bb8f8-ee29-450d-a069-c18b4bc4991c": {
             "role": "reader",
             "value": {
-              "id": "9afc34f2-aaa5-483d-894f-7c3b79799098",
-              "version": 29,
-              "type": "numbered_list",
+              "id": "771bb8f8-ee29-450d-a069-c18b4bc4991c",
+              "version": 2,
+              "type": "text",
               "properties": {
                 "title": [
                   [
-                    "З"
+                    "❗️🇪🇺 "
                   ],
                   [
-                    "апись в испанский визовый центр (Минск)",
+                    "ОБНОВЛЕНИЕ: ГДЕ ПОЛУЧИТЬ В БЕЛАРУСИ ВИЗУ В ЕС?",
                     [
                       [
-                        "a",
-                        "https://blsspain-belarus.com/book_appointment.php"
+                        "b"
                       ]
                     ]
                   ]
                 ]
               },
-              "created_time": 1647367560000,
-              "last_edited_time": 1647368100000,
+              "created_time": 1648206907856,
+              "last_edited_time": 1648206900000,
               "parent_id": "6c8c275d-f8e8-4631-b4d8-5c758dc7e274",
               "parent_table": "block",
               "alive": true,
               "created_by_table": "notion_user",
-              "created_by_id": "94e8060c-7244-48f5-b095-df59c3661f50",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
               "last_edited_by_table": "notion_user",
-              "last_edited_by_id": "94e8060c-7244-48f5-b095-df59c3661f50",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
               "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
             }
           },
-          "452508f4-622a-4ee8-b9b3-3eb05af6c708": {
+          "e6d0d736-d3f1-4a7e-b2af-10f9fde044c9": {
             "role": "reader",
             "value": {
-              "id": "452508f4-622a-4ee8-b9b3-3eb05af6c708",
-              "version": 5,
-              "type": "numbered_list",
+              "id": "e6d0d736-d3f1-4a7e-b2af-10f9fde044c9",
+              "version": 4,
+              "type": "text",
               "properties": {
                 "title": [
                   [
-                    "К"
+                    "⚡️"
                   ],
                   [
-                    "онсульство Латвии в Витебске",
+                    "Обратиться за личной консультацией вы можете в ",
                     [
                       [
+                        "i"
+                      ]
+                    ]
+                  ],
+                  [
+                    "@help_bysol",
+                    [
+                      [
+                        "i"
+                      ],
+                      [
                         "a",
-                        "https://www2.mfa.gov.lv/ru/vitebsk"
+                        "https://t.me/help_bysol"
+                      ]
+                    ]
+                  ],
+                  [
+                    ".",
+                    [
+                      [
+                        "i"
                       ]
                     ]
                   ]
                 ]
               },
-              "created_time": 1647368100000,
-              "last_edited_time": 1647368100000,
+              "created_time": 1648206907856,
+              "last_edited_time": 1648206960000,
               "parent_id": "6c8c275d-f8e8-4631-b4d8-5c758dc7e274",
               "parent_table": "block",
               "alive": true,
               "created_by_table": "notion_user",
-              "created_by_id": "94e8060c-7244-48f5-b095-df59c3661f50",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
               "last_edited_by_table": "notion_user",
-              "last_edited_by_id": "94e8060c-7244-48f5-b095-df59c3661f50",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
               "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
             }
           },
-          "48ce1a0c-d79e-42a0-bb2c-202c25a1f10c": {
+          "aa0b4256-dede-4b22-9155-865ee0e5909d": {
             "role": "reader",
             "value": {
-              "id": "48ce1a0c-d79e-42a0-bb2c-202c25a1f10c",
-              "version": 16,
-              "type": "numbered_list",
+              "id": "aa0b4256-dede-4b22-9155-865ee0e5909d",
+              "version": 2,
+              "type": "text",
               "properties": {
                 "title": [
                   [
-                    "В"
+                    "🇩🇪"
                   ],
                   [
-                    "изовый центр Италии в Минске",
+                    " Германия:",
+                    [
+                      [
+                        "b"
+                      ]
+                    ]
+                  ],
+                  [
+                    " посольство открыло возможность подачи документов на шенгенскую либо национальную визу. Информацию и все условия можно найти "
+                  ],
+                  [
+                    "здесь",
                     [
                       [
                         "a",
-                        "https://it.tlscontact.com/by/msq/index.php"
+                        "https://minsk.diplo.de/by-be/service/00-VisaEinreise"
                       ]
                     ]
+                  ],
+                  [
+                    ". Также визу можно получить по гуманитарным причинам (перед регистрацией на подачу свяжитесь с посольством). Ближайшая дата подачи документов 29 марта — узнать о необходимых документах и записаться можно "
+                  ],
+                  [
+                    "здесь",
+                    [
+                      [
+                        "a",
+                        "https://minsk.diplo.de/by-be/service/00-VisaEinreise/-/2004902#content_1"
+                      ]
+                    ]
+                  ],
+                  [
+                    "."
                   ]
                 ]
               },
-              "created_time": 1647367902111,
-              "last_edited_time": 1647369900000,
+              "created_time": 1648206907856,
+              "last_edited_time": 1648206900000,
               "parent_id": "6c8c275d-f8e8-4631-b4d8-5c758dc7e274",
               "parent_table": "block",
               "alive": true,
               "created_by_table": "notion_user",
-              "created_by_id": "94e8060c-7244-48f5-b095-df59c3661f50",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
               "last_edited_by_table": "notion_user",
-              "last_edited_by_id": "94e8060c-7244-48f5-b095-df59c3661f50",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
               "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
             }
           },
-          "c7ab7b6d-0872-40cb-9811-a20d57167632": {
+          "67e27f92-496d-48f1-aab9-7b49628a29e7": {
             "role": "reader",
             "value": {
-              "id": "c7ab7b6d-0872-40cb-9811-a20d57167632",
-              "version": 19,
-              "type": "numbered_list",
+              "id": "67e27f92-496d-48f1-aab9-7b49628a29e7",
+              "version": 2,
+              "type": "text",
               "properties": {
                 "title": [
                   [
-                    "Н"
+                    "🇮🇹 "
                   ],
                   [
-                    "ациональная виза D в Польшу",
+                    "Италия",
+                    [
+                      [
+                        "b"
+                      ]
+                    ]
+                  ],
+                  [
+                    ": продолжает принимать документы на получение туристической визы (категория С). Ближайшее даты записи через визовый центр только в мае: "
+                  ],
+                  [
+                    "ссылка",
+                    [
+                      [
+                        "a",
+                        "https://it.tlscontact.com/by/msq/page.php?pid=news"
+                      ]
+                    ]
+                  ],
+                  [
+                    ". Также визовый центр может принимать документы по живой очереди, условия нужно уточнять в рабочее время по телефону: +375 740 7409999."
+                  ]
+                ]
+              },
+              "created_time": 1648206907856,
+              "last_edited_time": 1648206900000,
+              "parent_id": "6c8c275d-f8e8-4631-b4d8-5c758dc7e274",
+              "parent_table": "block",
+              "alive": true,
+              "created_by_table": "notion_user",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "last_edited_by_table": "notion_user",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
+            }
+          },
+          "50da49d9-3392-47a5-af3c-8e45cdddd6f1": {
+            "role": "reader",
+            "value": {
+              "id": "50da49d9-3392-47a5-af3c-8e45cdddd6f1",
+              "version": 2,
+              "type": "text",
+              "properties": {
+                "title": [
+                  [
+                    "🇱🇻 "
+                  ],
+                  [
+                    "Латвия: ",
+                    [
+                      [
+                        "b"
+                      ]
+                    ]
+                  ],
+                  [
+                    "консульство в Витебске "
+                  ],
+                  [
+                    "выдаёт туристические визы",
+                    [
+                      [
+                        "a",
+                        "https://www2.mfa.gov.lv/ru/vitebsk/konsulskaya-informaciya"
+                      ]
+                    ]
+                  ],
+                  [
+                    ". На данный момент заполнены все временные слоты, но иногда документы принимают по живой очереди. Уточнять условия можно в рабочее время по телефону: +375 17 388 75 55."
+                  ]
+                ]
+              },
+              "created_time": 1648206907857,
+              "last_edited_time": 1648206900000,
+              "parent_id": "6c8c275d-f8e8-4631-b4d8-5c758dc7e274",
+              "parent_table": "block",
+              "alive": true,
+              "created_by_table": "notion_user",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "last_edited_by_table": "notion_user",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
+            }
+          },
+          "08b96a64-d989-44cf-bf4a-0876faccc609": {
+            "role": "reader",
+            "value": {
+              "id": "08b96a64-d989-44cf-bf4a-0876faccc609",
+              "version": 2,
+              "type": "text",
+              "properties": {
+                "title": [
+                  [
+                    "🇵🇱 "
+                  ],
+                  [
+                    "Польша",
+                    [
+                      [
+                        "b"
+                      ]
+                    ]
+                  ],
+                  [
+                    ": продолжает принимать документы на национальную визу D. Места для записи предоставляются еженедельно по средам, но их очень быстро бронируют. "
+                  ],
+                  [
+                    "Ссылка",
                     [
                       [
                         "a",
@@ -14550,24 +15092,98 @@
                   ]
                 ]
               },
-              "created_time": 1647367902111,
-              "last_edited_time": 1647460620000,
+              "created_time": 1648206907857,
+              "last_edited_time": 1648206900000,
               "parent_id": "6c8c275d-f8e8-4631-b4d8-5c758dc7e274",
               "parent_table": "block",
               "alive": true,
               "created_by_table": "notion_user",
-              "created_by_id": "94e8060c-7244-48f5-b095-df59c3661f50",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
               "last_edited_by_table": "notion_user",
               "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
               "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
             }
           },
-          "f2a7563d-7083-4f20-9a38-31c30749c9e1": {
+          "04254eac-790c-48a7-b565-8065712d805f": {
             "role": "reader",
             "value": {
-              "id": "f2a7563d-7083-4f20-9a38-31c30749c9e1",
-              "version": 16,
-              "type": "numbered_list",
+              "id": "04254eac-790c-48a7-b565-8065712d805f",
+              "version": 7,
+              "type": "text",
+              "properties": {
+                "title": [
+                  [
+                    "Делитесь своим опытом получения визы в РБ в боте:",
+                    [
+                      [
+                        "i"
+                      ]
+                    ]
+                  ],
+                  [
+                    " "
+                  ],
+                  [
+                    "@bysol_evacuation_bot.",
+                    [
+                      [
+                        "i"
+                      ],
+                      [
+                        "a",
+                        "https://t.me/bysol_evacuation_bot"
+                      ]
+                    ]
+                  ],
+                  [
+                    " Эта информация может помочь другим",
+                    [
+                      [
+                        "i"
+                      ]
+                    ]
+                  ],
+                  [
+                    "."
+                  ]
+                ]
+              },
+              "created_time": 1648206907857,
+              "last_edited_time": 1648207140000,
+              "parent_id": "6c8c275d-f8e8-4631-b4d8-5c758dc7e274",
+              "parent_table": "block",
+              "alive": true,
+              "created_by_table": "notion_user",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "last_edited_by_table": "notion_user",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
+            }
+          },
+          "c837e503-db51-45d6-af73-fdcad72059ae": {
+            "role": "reader",
+            "value": {
+              "id": "c837e503-db51-45d6-af73-fdcad72059ae",
+              "version": 6,
+              "type": "text",
+              "created_time": 1648206960000,
+              "last_edited_time": 1648206960000,
+              "parent_id": "6c8c275d-f8e8-4631-b4d8-5c758dc7e274",
+              "parent_table": "block",
+              "alive": true,
+              "created_by_table": "notion_user",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "last_edited_by_table": "notion_user",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
+            }
+          },
+          "f3744b0e-c9ff-479d-a2d0-b29e0cc8fd48": {
+            "role": "reader",
+            "value": {
+              "id": "f3744b0e-c9ff-479d-a2d0-b29e0cc8fd48",
+              "version": 5,
+              "type": "text",
               "properties": {
                 "title": [
                   [
@@ -14580,12 +15196,30 @@
                     ]
                   ],
                   [
-                    " - как добраться в Европу из России, какие страны выдают шенген, набор документов для подачи\n"
+                    " - как добраться в Европу из России, какие страны выдают шенген, набор документов для подачи"
                   ]
                 ]
               },
-              "created_time": 1647460620000,
-              "last_edited_time": 1647460680000,
+              "created_time": 1648206960000,
+              "last_edited_time": 1648206960000,
+              "parent_id": "6c8c275d-f8e8-4631-b4d8-5c758dc7e274",
+              "parent_table": "block",
+              "alive": true,
+              "created_by_table": "notion_user",
+              "created_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "last_edited_by_table": "notion_user",
+              "last_edited_by_id": "694d7d93-5a2c-4966-9431-32ec91a870d8",
+              "space_id": "17226a10-92b2-4cae-a343-1e40368f2f38"
+            }
+          },
+          "8df159ab-e554-406c-a378-75cc2596582c": {
+            "role": "reader",
+            "value": {
+              "id": "8df159ab-e554-406c-a378-75cc2596582c",
+              "version": 3,
+              "type": "text",
+              "created_time": 1648206960000,
+              "last_edited_time": 1648206960000,
               "parent_id": "6c8c275d-f8e8-4631-b4d8-5c758dc7e274",
               "parent_table": "block",
               "alive": true,
@@ -14608,7 +15242,7 @@
         "object": "page",
         "id": "6c8c275d-f8e8-4631-b4d8-5c758dc7e274",
         "created_time": "2022-03-15T18:00:00.000Z",
-        "last_edited_time": "2022-03-16T19:59:00.000Z",
+        "last_edited_time": "2022-03-25T11:26:00.000Z",
         "created_by": {
           "object": "user",
           "id": "94e8060c-7244-48f5-b095-df59c3661f50"
@@ -14701,6 +15335,16 @@
                 "id": "03924546-855d-4baf-aeda-7923dd03873c",
                 "name": "визовый центр",
                 "color": "orange"
+              },
+              {
+                "id": "7f2259ce-117f-467a-b35e-a1834715de22",
+                "name": "виза в Польшу",
+                "color": "purple"
+              },
+              {
+                "id": "319bb37a-8fcf-4091-8fa8-5043962bffdb",
+                "name": "виза в Германию",
+                "color": "red"
               }
             ]
           },
@@ -14711,7 +15355,7 @@
               {
                 "type": "text",
                 "text": {
-                  "content": "Визовые центры Беларуси и России",
+                  "content": "Визовые центры Беларуси и России\n\n",
                   "link": null
                 },
                 "annotations": {
@@ -14722,7 +15366,7 @@
                   "code": false,
                   "color": "default"
                 },
-                "plain_text": "Визовые центры Беларуси и России",
+                "plain_text": "Визовые центры Беларуси и России\n\n",
                 "href": null
               }
             ]
@@ -17063,7 +17707,7 @@
             "role": "reader",
             "value": {
               "id": "65809ec7-0e05-4cd3-aed4-dece2faa7534",
-              "version": 152,
+              "version": 153,
               "type": "page",
               "properties": {
                 "q>@i": [
@@ -17102,7 +17746,7 @@
                 }
               ],
               "created_time": 1647359160000,
-              "last_edited_time": 1647442140000,
+              "last_edited_time": 1648131360000,
               "parent_id": "c09569ef-87f7-4f9c-aa09-937d07f8703e",
               "parent_table": "collection",
               "alive": true,
@@ -17219,7 +17863,7 @@
             "role": "reader",
             "value": {
               "id": "4588b44c-4e78-4831-b152-802c0d471ae3",
-              "version": 117,
+              "version": 120,
               "type": "text",
               "properties": {
                 "title": [
@@ -17233,7 +17877,7 @@
                     ]
                   ],
                   [
-                    " - общий канал, которые занимается связью тех, кто предоставляет услуги перевозки и тех, кому эти услуги нужны"
+                    " - общий канал, который занимается связью тех, кто предоставляет услуги перевозки и тех, кому эти услуги нужны"
                   ]
                 ]
               },
@@ -17245,7 +17889,7 @@
                 }
               },
               "created_time": 1647442066052,
-              "last_edited_time": 1647442140000,
+              "last_edited_time": 1648131360000,
               "parent_id": "65809ec7-0e05-4cd3-aed4-dece2faa7534",
               "parent_table": "block",
               "alive": true,
@@ -17287,7 +17931,7 @@
         "object": "page",
         "id": "65809ec7-0e05-4cd3-aed4-dece2faa7534",
         "created_time": "2022-03-15T15:46:00.000Z",
-        "last_edited_time": "2022-03-16T14:49:00.000Z",
+        "last_edited_time": "2022-03-24T14:16:00.000Z",
         "created_by": {
           "object": "user",
           "id": "a0af3ba3-fb6d-4971-ad9a-d43656bb0f72"
@@ -22263,5 +22907,5 @@
       }
     }
   },
-  "version": 1648076306503
+  "version": 1648208235958
 }
