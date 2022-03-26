@@ -64,19 +64,6 @@ export const canHelpBranch: Record<string, QuestionItemConfig> = {
         answer: {
           type: AnswerType.COUNTRY_SELECT,
           config: {
-            text: "Россия",
-            flag: "russian",
-          },
-        },
-        next: {
-          type: NextType.REDIRECT,
-          postId: "c54dba5ba4ad4348bb92b8112ee8356e",
-        },
-      },
-      {
-        answer: {
-          type: AnswerType.COUNTRY_SELECT,
-          config: {
             text: "Беларусь",
             flag: "belarus",
           },
@@ -84,6 +71,19 @@ export const canHelpBranch: Record<string, QuestionItemConfig> = {
         next: {
           type: NextType.REDIRECT,
           postId: "cbfec7e118394113bdd85df4929e7226",
+        },
+      },
+      {
+        answer: {
+          type: AnswerType.COUNTRY_SELECT,
+          config: {
+            text: "Россия",
+            flag: "russian",
+          },
+        },
+        next: {
+          type: NextType.REDIRECT,
+          postId: "c54dba5ba4ad4348bb92b8112ee8356e",
         },
       },
       {

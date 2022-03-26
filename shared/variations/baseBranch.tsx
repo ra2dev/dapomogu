@@ -85,19 +85,6 @@ export const baseBranch: FlowConfig["questions"] = {
         answer: {
           type: AnswerType.COUNTRY_SELECT,
           config: {
-            text: "Россия",
-            flag: "russian",
-          },
-        },
-        next: {
-          type: NextType.QUESTION,
-          questionId: "rus-select",
-        },
-      },
-      {
-        answer: {
-          type: AnswerType.COUNTRY_SELECT,
-          config: {
             text: "Грузия",
             flag: "georgia",
           },
@@ -105,6 +92,19 @@ export const baseBranch: FlowConfig["questions"] = {
         next: {
           type: NextType.QUESTION,
           questionId: "ge-select",
+        },
+      },
+      {
+        answer: {
+          type: AnswerType.COUNTRY_SELECT,
+          config: {
+            text: "Россия",
+            flag: "russian",
+          },
+        },
+        next: {
+          type: NextType.QUESTION,
+          questionId: "rus-select",
         },
       },
       {
