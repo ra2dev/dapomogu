@@ -10242,7 +10242,7 @@
             "role": "reader",
             "value": {
               "id": "6bb0d865-5cf4-4d25-993f-b11d14456d5e",
-              "version": 9557,
+              "version": 9559,
               "type": "page",
               "properties": {
                 "title": [
@@ -10530,17 +10530,22 @@
                   "role": "editor",
                   "type": "user_permission",
                   "user_id": "a57ef3e3-730b-465d-a543-e0ca07b521cc"
+                },
+                {
+                  "role": "editor",
+                  "type": "user_permission",
+                  "user_id": "d2cd44c3-44f8-42b5-b4c1-34764cd72081"
                 }
               ],
               "created_time": 1645896240000,
-              "last_edited_time": 1648587180000,
+              "last_edited_time": 1648591560000,
               "parent_id": "5513007a-39ad-48cc-b418-1131f37e18d8",
               "parent_table": "space",
               "alive": true,
               "created_by_table": "notion_user",
               "created_by_id": "270e66cd-04bc-40f2-b54c-aaf220009e65",
               "last_edited_by_table": "notion_user",
-              "last_edited_by_id": "8a64f134-7f45-4c36-8c25-0d963ed93408",
+              "last_edited_by_id": "267617ad-1266-43c9-829c-b758c0245982",
               "space_id": "5513007a-39ad-48cc-b418-1131f37e18d8"
             }
           },
@@ -56511,5 +56516,5 @@
       }
     }
   },
-  "version": 1648589453664
+  "version": 1648596231046
 }

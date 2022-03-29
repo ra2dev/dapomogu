@@ -52,11 +52,11 @@ export const BlogList = () => {
 
   const hasMore = posts.length > MAX_SHOW_LENGTH;
   return posts.length > 0 ? (
-    <div
-      className="max-w-4xl mx-auto px-4 sm:px-6 pb-20 mt-[200px]"
-    >
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-20 mt-[200px]">
       <div className="mb-2">
-        <div className="text-xl text-gray-700">Популярные статьи ({posts.length}):</div>
+        <div className="text-xl text-gray-700">
+          Популярные статьи ({posts.length}):
+        </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 flex-wrap mb-4">
         {posts.slice(0, MAX_SHOW_LENGTH).map((e) => (

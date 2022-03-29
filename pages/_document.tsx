@@ -1,3 +1,4 @@
+import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { CssBaseline } from "@nextui-org/react";
 
@@ -16,6 +17,7 @@ class MyDocument extends Document {
         <Head>
           {CssBaseline.flush()}
           <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="shortcut icon" href="/favicon.ico" />
           <link
             rel="preconnect"
             href="https://fonts.gstatic.com"
@@ -37,6 +39,12 @@ class MyDocument extends Document {
 
             gtag('config', 'G-7PP43NNH3F');`,
             }}
+          />
+          <meta content="#ffffff" name="theme-color" />
+          <meta content="#ffffff" name="msapplication-TileColor" />
+          <meta
+            content="2GGSbgA4YzUFZjM1EXR4W1yliGPcvgPXUCLAarg0UbI"
+            name="google-site-verification"
           />
         </Head>
         <body>

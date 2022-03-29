@@ -4,6 +4,11 @@
 .main-notion-render .notion-frame {
   padding: 0;
 }
+
+.notion-collection-row {
+  display: none;
+}
+
 @media screen and (max-width: 700px) {
   .main-notion-render .notion-page-cover {
     min-height: 80px;
