@@ -6,7 +6,6 @@ import { flowConfig } from "../../../shared/config";
 import { answerMap, questionMap } from "../../../shared/components";
 import { FlowConfig, NextConfig, NextType } from "../../../shared/questions";
 import { CommonQuestion } from "../../questions/CommonQuestion";
-import { route } from "next/dist/server/router";
 
 const getIsValidInitSteps = (
   config?: FlowConfig,
@@ -91,7 +90,7 @@ export const FlowEngine = ({ config = flowConfig, setNext, next }) => {
 
           return (
             <AnswerComponent
-              key={i.toString().concat(answer.type)}
+              key={i.toString().concat(lastStep)}
               onSelect={onAnswerSelect(next)}
               {...answer.config}
             />

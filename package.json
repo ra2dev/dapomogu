@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "bn": "yarn build-notion",
-    "build-notion": "node ./scripts/notion.js",
+    "build-notion": "node ./scripts/notion.js && node ./scripts/generate-sitemap.mjs",
     "start": "next start"
   },
   "dependencies": {

@@ -14,10 +14,4 @@ body {
 
 .select-secondary-icon {
   color: #5d5fef;
-  svg {
-    fill: #5d5fef;
-    path {
-      stroke: #5d5fef;
-    }
-  }
 }

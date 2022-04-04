@@ -4,3 +4,9 @@ export const getPageTitle = (page: any) => {
     ""
   );
 };
+export const getPageDescription = (page: any) => {
+  return page?.properties?.ShortDescription?.rich_text?.reduce(
+    (acc, e) => acc + (e?.plain_text || ""),
+    ""
+  );
+};
