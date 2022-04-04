@@ -30,7 +30,7 @@ export const canHelpBranch: Record<string, QuestionItemConfig> = {
         next: {
           type: NextType.QUESTION,
           question: {
-            slug: 'uk-can-help',
+            slug: "uk-can-help",
             answers: [
               {
                 answer: {
@@ -97,7 +97,7 @@ export const canHelpBranch: Record<string, QuestionItemConfig> = {
         next: {
           type: NextType.QUESTION,
           question: {
-            slug: 'eu-can-help',
+            slug: "eu-can-help",
             answers: [
               {
                 answer: {
@@ -121,6 +121,20 @@ export const canHelpBranch: Record<string, QuestionItemConfig> = {
                 next: {
                   type: NextType.REDIRECT,
                   postId: "2657f63b0d0541cf83d5de4143910991",
+                },
+              },
+
+              {
+                answer: {
+                  type: AnswerType.COUNTRY_SELECT,
+                  config: {
+                    text: "Германия",
+                    flag: "german",
+                  },
+                },
+                next: {
+                  type: NextType.REDIRECT,
+                  postId: "092fb52eb304400aa8e3ec1ffc875f7d",
                 },
               },
             ],
