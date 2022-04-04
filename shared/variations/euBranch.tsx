@@ -112,12 +112,24 @@ export const euBranch: FlowConfig["questions"] = {
                 answer: {
                   type: AnswerType.ARTICLE_PREVIEW,
                   config: {
-                    text: "Поиск жилья бесплатно",
+                    text: "Поиск жилья Бесплатно",
                   },
                 },
                 next: {
                   type: NextType.REDIRECT,
-                  postId: "1fee6e7afd12464ebdd9e82decf44d90",
+                  postId: "5955f7ec52c441f0adbdddd9e3f373a6",
+                },
+              },
+              {
+                answer: {
+                  type: AnswerType.ARTICLE_PREVIEW,
+                  config: {
+                    text: "Поиск жилья Платно",
+                  },
+                },
+                next: {
+                  type: NextType.REDIRECT,
+                  postId: "33b2d9c1c1d8413893b73027adc3cfde",
                 },
               },
               {
