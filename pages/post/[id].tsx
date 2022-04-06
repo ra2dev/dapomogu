@@ -102,7 +102,7 @@ export default function Post({ recordMap, page }: any) {
         </div>
       </div>
       {hasComments && (
-        <div className="notion-page mb-4">
+        <div className="notion-page mb-4 flex">
           <Comment />
         </div>
       )}
