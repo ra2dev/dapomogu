@@ -10,8 +10,6 @@ import { ArrowLeftIcon } from "@heroicons/react/outline";
 import { useRouter } from "next/router";
 import { Container } from "../../components/container/Container";
 import { Comment } from "../../components/Comment";
-import is from "@sindresorhus/is";
-import set = is.set;
 
 const formatPostDate = (date) => {
   try {
@@ -33,12 +31,6 @@ export default function Post({ recordMap, page }: any) {
   const title = getPageTitle(page);
   const description = getPageDescription(page);
   const tags = page?.properties?.Tags?.multi_select;
-
-  const [hasComments, setHasComments] = useState<boolean>(false);
-
-  useEffect(() => {
-    setHasComments(!!localStorage?.getItem?.("feature-toggle:has-comments"));
-  }, []);
 
   return (
     <Container
@@ -93,7 +85,7 @@ export default function Post({ recordMap, page }: any) {
         darkMode={false}
         showTableOfContents={true}
       />
-      <div className="notion-page mb-4">
+      <div className="notion-page mb-4" style={{ marginBottom: "30px" }}>
         <hr className="mb-4 w-full" />
         <div className="flex items-start justify-between w-full mt-2 md:flex-row md:items-center">
           <p className="mt-2 text-sm text-gray-700 min-w-32 md:mt-0">
@@ -101,11 +93,9 @@ export default function Post({ recordMap, page }: any) {
           </p>
         </div>
       </div>
-      {hasComments && (
-        <div className="notion-page mb-4 flex">
-          <Comment />
-        </div>
-      )}
+      <div className="notion-page mb-4 flex">
+        <Comment />
+      </div>
     </Container>
   );
 }
