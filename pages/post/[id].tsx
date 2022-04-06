@@ -1,5 +1,5 @@
 import { CollectionRow, NotionRenderer } from "react-notion-x";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import cn from "classnames";
 import { LazyImage } from "../../components/blog/LazyImage";
 import { TagsRender } from "../../components/blog/TagsRender";
@@ -9,6 +9,9 @@ import { Link } from "@nextui-org/react";
 import { ArrowLeftIcon } from "@heroicons/react/outline";
 import { useRouter } from "next/router";
 import { Container } from "../../components/container/Container";
+import { Comment } from "../../components/Comment";
+import is from "@sindresorhus/is";
+import set = is.set;
 
 const formatPostDate = (date) => {
   try {
@@ -30,6 +33,12 @@ export default function Post({ recordMap, page }: any) {
   const title = getPageTitle(page);
   const description = getPageDescription(page);
   const tags = page?.properties?.Tags?.multi_select;
+
+  const [hasComments, setHasComments] = useState<boolean>(false);
+
+  useEffect(() => {
+    setHasComments(!!localStorage?.getItem?.("feature-toggle:has-comments"));
+  }, []);
 
   return (
     <Container
@@ -92,6 +101,11 @@ export default function Post({ recordMap, page }: any) {
           </p>
         </div>
       </div>
+      {hasComments && (
+        <div className="notion-page mb-4">
+          <Comment />
+        </div>
+      )}
     </Container>
   );
 }
