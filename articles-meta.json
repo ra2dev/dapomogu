@@ -1534,7 +1534,6 @@
             }
           }
         },
-        "space": {},
         "collection_view": {
           "1a401f3e-434f-4db3-9df0-7d61c2c2e4be": {
             "role": "reader",
@@ -1624,6 +1623,7 @@
             }
           }
         },
+        "space": {},
         "notion_user": {},
         "collection_query": {},
         "signed_urls": {}
@@ -19227,7 +19227,7 @@
             "role": "reader",
             "value": {
               "id": "6bb0d865-5cf4-4d25-993f-b11d14456d5e",
-              "version": 9979,
+              "version": 10065,
               "type": "page",
               "properties": {
                 "title": [
@@ -19259,6 +19259,8 @@
                 "2cbcdcad-8f9a-4145-bbf4-e1d187f208c2",
                 "b16f5e46-dd1c-44ed-8453-d90ba229e92b",
                 "288a8095-77a9-4a2c-82cd-e8648897ca02",
+                "a5aa3964-fdbe-4f9f-b9ef-17ed39e32a12",
+                "96f2bf2a-68b1-4569-af71-2d30e2245671",
                 "d2013de4-b383-4037-9c7c-27a3efb772d4",
                 "3d1474a5-c284-4262-90e3-283d3d7b0c50",
                 "2dfe1a5f-db59-4338-b0a4-3fba0a07f9a9",
@@ -19321,6 +19323,7 @@
                 "529f0ede-ef4f-4575-8717-45fb18e6e698",
                 "0d8dac96-ad7d-402c-849e-85a7cabbf0ea",
                 "c633a655-ed48-4161-acc1-0b4389b3cf13",
+                "31580942-f8d6-42c4-857b-31e93e3a9488",
                 "ce82f164-d835-4eb3-ad4c-e4ef436c1ee4",
                 "a95b0139-f444-4b1c-bf4d-2912df54f3b9",
                 "fd405893-81cc-4a15-9203-88d1d528d97e",
@@ -19382,14 +19385,37 @@
                 "960dcfd8-3f03-437e-9de5-46e856f847ca",
                 "185c5392-adbd-428b-ae22-ed4e9e1d72be",
                 "75c28d8b-242b-4811-9379-fe01adac0d84",
-                "4e92d815-f7de-4418-9256-d9167491eb02",
-                "a41829d0-592b-48ce-8991-ab581235dc2b",
-                "74a1d738-7174-405d-ae7e-e7270c1deecd",
-                "00ae543c-2cfb-475e-b1c9-066da11a2990",
-                "dea6b5a0-b7fc-4eef-8823-7e4caca8a07a",
-                "8e3f2f3d-a919-465c-81be-4910aa45aee8",
-                "06dd0b1b-bfa9-4a84-b842-8c881725ca36",
-                "5ae1cc94-1417-435c-b9b6-379bd17f5333",
+                "3f0b105f-5a7b-4d3a-9aa1-9fe54de19abe",
+                "e172ef5e-9433-433f-b18f-7494856239c9",
+                "706eed7a-cf14-4966-839e-511d604e4259",
+                "d324cc8d-41a4-4c53-a71c-67cf0aba2267",
+                "72d01627-f24c-4730-8048-44dc35575bea",
+                "9c394f8e-eba3-416f-a6af-dc382799fc9c",
+                "d9ba0a97-38bf-4497-862e-0bc9f960fda6",
+                "e2610d62-7c19-471c-a5d7-3f143a544e24",
+                "3e4a7b4f-cf75-40f8-a86c-2561cbed73db",
+                "f43aea5c-fd0d-4541-852f-a977fa13fc63",
+                "dc21f032-e040-45c4-86a3-ad62d3c8ea6a",
+                "506d682e-fdf8-4b51-9f6c-362105a5aab2",
+                "6d49c0dc-c6a9-4370-99ff-a2078284c83d",
+                "aa0bd9ca-5fd5-40c8-a2c5-7b582e0e8b01",
+                "b5eb96bc-cd5e-4fce-bca7-8a32c96ecadd",
+                "4a847392-0499-4271-9e0d-7c224b938c86",
+                "821d71e7-6fc7-4c4c-82c4-afe606a7b5a6",
+                "3dceeeb4-1fbe-405d-a349-0b1a5c617a8d",
+                "c27a63ad-9132-4a21-af6f-067dcf8d0d2d",
+                "7420a953-69d4-4a52-8439-92ec663c0119",
+                "ec37342e-c0b0-4357-a559-427df0728558",
+                "4e6975b1-f3da-495d-ae37-502c4db037b8",
+                "9dc4fa91-ce6e-4879-aa98-8a918a72c6e1",
+                "f8fa5195-3850-4f92-97b3-e94ee9936957",
+                "8a2568e2-0789-4a7f-9082-bdecdb0332f6",
+                "6e6b701a-9729-44d5-aa84-554d17bc981c",
+                "861af330-fa3a-4c0c-8d01-beb62765217c",
+                "fa3cb70f-a940-4550-8d43-b74791582565",
+                "e39e4d6f-910b-4b41-93bd-1f6f6fadc75e",
+                "fd348480-2837-4e66-9ea5-1fb5b71dcf70",
+                "ca91c7ec-d5c9-49a1-b930-99aa93ac1071",
                 "ef1ece8c-f868-4f4d-b2be-305d7121dd2d",
                 "fd108db5-0d6e-42b5-b842-7921e377b42b",
                 "cde968a1-c5be-4724-858f-25be6a7028d9",
@@ -19525,14 +19551,14 @@
                 }
               ],
               "created_time": 1645896240000,
-              "last_edited_time": 1649785440000,
+              "last_edited_time": 1650449400000,
               "parent_id": "5513007a-39ad-48cc-b418-1131f37e18d8",
               "parent_table": "space",
               "alive": true,
               "created_by_table": "notion_user",
               "created_by_id": "270e66cd-04bc-40f2-b54c-aaf220009e65",
               "last_edited_by_table": "notion_user",
-              "last_edited_by_id": "6fedfe0e-bfcb-4e63-ba40-a203b9f2bc02",
+              "last_edited_by_id": "e95c1403-137a-4bca-9234-304268a8de99",
               "space_id": "5513007a-39ad-48cc-b418-1131f37e18d8"
             }
           },
@@ -62892,7 +62918,7 @@
             "role": "reader",
             "value": {
               "id": "c338e692-fc3e-4f26-8111-bacded9cb917",
-              "version": 220,
+              "version": 221,
               "type": "page",
               "properties": {
                 "q>@i": [
@@ -62958,7 +62984,7 @@
                 }
               ],
               "created_time": 1647358620000,
-              "last_edited_time": 1649203080000,
+              "last_edited_time": 1650378840000,
               "parent_id": "c09569ef-87f7-4f9c-aa09-937d07f8703e",
               "parent_table": "collection",
               "alive": true,
@@ -63085,7 +63111,7 @@
             "role": "reader",
             "value": {
               "id": "e32d0dcc-5c10-45ef-be9d-7ee19370598d",
-              "version": 37,
+              "version": 41,
               "type": "bulleted_list",
               "properties": {
                 "title": [
@@ -63099,12 +63125,12 @@
                     ]
                   ],
                   [
-                    "- ресурс для изучения иностранных языков. Для украинцев 3 месяца обучения бесплатно"
+                    "- ресурс для изучения иностранных языков. Для украинцев 3 месяца обучения бесплатно;"
                   ]
                 ]
               },
               "created_time": 1649202960000,
-              "last_edited_time": 1649203080000,
+              "last_edited_time": 1650378840000,
               "parent_id": "c338e692-fc3e-4f26-8111-bacded9cb917",
               "parent_table": "block",
               "alive": true,
@@ -63119,7 +63145,7 @@
             "role": "reader",
             "value": {
               "id": "014274ad-311c-446b-ae48-0415eb95894b",
-              "version": 7,
+              "version": 9,
               "type": "bulleted_list",
               "properties": {
                 "title": [
@@ -63133,12 +63159,12 @@
                     ]
                   ],
                   [
-                    "— телеграм канал с бесплатным английским для беженцев ;"
+                    "— телеграм канал с бесплатным английским для беженцев;"
                   ]
                 ]
               },
               "created_time": 1649203080000,
-              "last_edited_time": 1649203080000,
+              "last_edited_time": 1650378840000,
               "parent_id": "c338e692-fc3e-4f26-8111-bacded9cb917",
               "parent_table": "block",
               "alive": true,
@@ -65352,7 +65378,7 @@
         "object": "page",
         "id": "c338e692-fc3e-4f26-8111-bacded9cb917",
         "created_time": "2022-03-15T15:37:00.000Z",
-        "last_edited_time": "2022-04-05T23:58:00.000Z",
+        "last_edited_time": "2022-04-19T14:34:00.000Z",
         "created_by": {
           "object": "user",
           "id": "a0af3ba3-fb6d-4971-ad9a-d43656bb0f72"
@@ -94623,5 +94649,5 @@
       }
     }
   },
-  "version": 1649848785151
+  "version": 1650466888680
 }
