@@ -1,4 +1,4 @@
-## Dapomogu.com
+## [Dapomogu](https://dapomogu.vercel.app/)
 
 Non profit site, used to collect/share articles to find/provide help to people affected by war.
 Include questions/answers/links related EU,Ukraine,Belarus in scope of urgent relocation.
